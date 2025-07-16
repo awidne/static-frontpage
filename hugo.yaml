@@ -64,8 +64,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hello."
-    Content: Welcome to my website. 
+    Title: "Hello. I'm Jack."
+    Content: Welcome to my website. Here you will find links to my projects and information for tutoring.
 
   socialIcons:
     - name: instagram
