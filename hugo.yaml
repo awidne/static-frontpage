@@ -1,0 +1,97 @@
+baseURL: "https://jackxue.com/"
+title: Jack Xue
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+mainsections: ["pages", "links"]
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+pagination:
+  disableAliases: false
+  pagerSize: 5
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Jack Xue
+  description: "Jack's website"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: 
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+
+  label:
+    text: "Jack Xue"
+    icon: /apple-touch-icon.png
+    iconHeight: 30
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hello."
+    Content: Welcome to my website. 
+
+  socialIcons:
+    - name: instagram
+      url: "https://instagram.com/jack.xuee"
+    - name: linkedin
+      url: "https://linkedin.com/in/jackxuejx/"
+
+#  cover:
+#    hidden: true # hide everywhere but not in structured data
+#    hiddenInList: true # hide on list pages and home
+#    hiddenInSingle: true # hide on single page
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: tutoring
+      name: Tutoring
+      url: /tutoring/
+      weight: 20
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
