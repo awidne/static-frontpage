@@ -21,11 +21,32 @@
       <description>Repository of my condensed notes organized by topic. Work-in-progress.</description>
     </item>
     <item>
-      <title>About Section</title>
+      <title>About Me</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h2 id=&#34;coming-soon&#34;&gt;Coming soon&lt;/h2&gt;</description>
+      <description>&lt;p&gt;Medical student at Queen&amp;rsquo;s University School of Medicine with a background in chemistry and biology. Skills and experiences in teaching, non-profit management, research, and more.&lt;/p&gt;
+&lt;p&gt;Always looking for another project or hobby.&lt;/p&gt;
+&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;
+&lt;ol class=&#34;relative border-s border-gray-200 dark:border-gray-700&#34;&gt;
+
+&lt;li class=&#34;mb-10 ms-6&#34;&gt;
+  &lt;span class=&#34;absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900&#34;&gt;
+    &lt;svg class=&#34;w-2.5 h-2.5 text-blue-800 dark:text-blue-300&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;currentColor&#34; viewBox=&#34;0 0 20 20&#34;&gt;
+      &lt;path d=&#34;M6 2a1 1 0 0 1 .894.553L9.382 8H14a1 1 0 0 1 .993.883L15 9a1 1 0 0 1-1 1h-5a1 1 0 0 1-.894-.553L5.618 3H2a1 1 0 1 1 0-2h4Zm8 18a1 1 0 0 0 .117-1.993L14 18h-4.382l2.488-5.447A1 1 0 0 0 11.382 10H6a1 1 0 0 0-.993.883L5 11a1 1 0 0 0 1 1h3.382l-2.488 5.447A1 1 0 0 0 7.618 20H14Z&#34;/&gt;
+    &lt;/svg&gt;
+  &lt;/span&gt;
+  &lt;h3 class=&#34;mb-1 text-lg font-semibold text-gray-900 dark:text-white&#34;&gt;
+    Private Tutor
+  &lt;/h3&gt;
+  &lt;time class=&#34;block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500&#34;&gt;
+    Dec 2021 - Present
+  &lt;/time&gt;
+  &lt;p class=&#34;text-base font-normal text-gray-500 dark:text-gray-400&#34;&gt;
+    
+Text body with brief description
+
+  &lt;/p&gt;</description>
     </item>
     <item>
       <title>Tutoring Services</title>
