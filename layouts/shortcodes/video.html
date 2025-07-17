@@ -1,0 +1,21 @@
+<div class="video-container" style="
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+">
+    <video 
+        width="{{ .Get "width" | default "800" }}" 
+        height="{{ .Get "height" | default "450" }}"
+        style="
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        "
+        controls
+        controlsList="nodownload"
+    >
+        <source src="{{ .Get "src" }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>

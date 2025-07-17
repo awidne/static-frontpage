@@ -55,7 +55,7 @@
   }
   .timeline-content h3 {
     font-weight: 600;
-    font-size: 1.3rem;  
+    font-size: 1.2rem;  
     margin: 0 0 0.25rem 0;
     color: #6a85ab;  
   }
@@ -69,8 +69,9 @@
     display: block;
     font-size: 0.875rem;  
     color: #6b7280;  
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
   }
+   
   [data-theme=&#34;dark&#34;] .timeline-content p {
     margin: 0;
     font-size: 0.9rem;
@@ -82,9 +83,25 @@
     color: #1b1b1b;  
   }
 
+  .timeline-content .description {
+    margin: 0.5rem 0;
+  }
+  .timeline-content .description ul,
+  .timeline-content .description ol {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+  }
+  .timeline-content .description li {
+    margin: 0.5rem 0;
+    line-height: 1;
+  }
+  .timeline-content .description p {
+    margin: 0.5rem 0;
+  }
+
   .timeline-button {
     display: inline-block;
-    margin-top: -1.0rem;
+    margin-top: 0.5rem;
     padding: 0.28rem 0.75rem;
     background-color: #435874;  
     color: rgb(213, 213, 213);
@@ -112,10 +129,10 @@
     &lt;time datetime=&#34;2024-09-01&#34;&gt;September 2024 - Present&lt;/time&gt;
     &lt;h3&gt;Doctor of Medicine - MD&lt;/h3&gt;
     &lt;h1&gt;Queen&amp;#39;s University&lt;/h1&gt;
-    &lt;div class=&#34;timeline-description&#34;&gt;
+    &lt;div class=&#34;description&#34;&gt;
       &lt;ul&gt;
-&lt;li&gt;test&lt;/li&gt;
-&lt;li&gt;test2&lt;/li&gt;
+&lt;li&gt;Queen&amp;rsquo;s-Lakeridge MDFM&lt;/li&gt;
+&lt;li&gt;Anticipated graduation: 2028&lt;/li&gt;
 &lt;/ul&gt;
 
     &lt;/div&gt;
@@ -124,14 +141,19 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
+
   &lt;div class=&#34;timeline-item&#34;&gt;
   &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
   &lt;div class=&#34;timeline-content&#34;&gt;
     &lt;time datetime=&#34;2018-09-01&#34;&gt;September 2018 - April 2022&lt;/time&gt;
     &lt;h3&gt;Bachelor of Science - BSc, Chemical Biology&lt;/h3&gt;
     &lt;h1&gt;University of British Columbia&lt;/h1&gt;
-    &lt;div class=&#34;timeline-description&#34;&gt;
-      
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;ul&gt;
+&lt;li&gt;Graduated with Distinction&lt;/li&gt;
+&lt;li&gt;Dean&amp;rsquo;s Honour List, Science Scholar&lt;/li&gt;
+&lt;/ul&gt;
+
     &lt;/div&gt;
 
     
@@ -170,7 +192,7 @@
   }
   .timeline-content h3 {
     font-weight: 600;
-    font-size: 1.3rem;  
+    font-size: 1.2rem;  
     margin: 0 0 0.25rem 0;
     color: #6a85ab;  
   }
@@ -184,8 +206,9 @@
     display: block;
     font-size: 0.875rem;  
     color: #6b7280;  
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
   }
+   
   [data-theme=&#34;dark&#34;] .timeline-content p {
     margin: 0;
     font-size: 0.9rem;
@@ -197,9 +220,25 @@
     color: #1b1b1b;  
   }
 
+  .timeline-content .description {
+    margin: 0.5rem 0;
+  }
+  .timeline-content .description ul,
+  .timeline-content .description ol {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+  }
+  .timeline-content .description li {
+    margin: 0.5rem 0;
+    line-height: 1;
+  }
+  .timeline-content .description p {
+    margin: 0.5rem 0;
+  }
+
   .timeline-button {
     display: inline-block;
-    margin-top: -1.0rem;
+    margin-top: 0.5rem;
     padding: 0.28rem 0.75rem;
     background-color: #435874;  
     color: rgb(213, 213, 213);
@@ -227,36 +266,52 @@
     &lt;time datetime=&#34;2025-03-01&#34;&gt;March 2025 - Present&lt;/time&gt;
     &lt;h3&gt;Quality Improvement Project&lt;/h3&gt;
     &lt;h1&gt;Vancouver Coastal Health&lt;/h1&gt;
-    &lt;div class=&#34;timeline-description&#34;&gt;
-      
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;ul&gt;
+&lt;li&gt;Principal investigator: Dr. Stephen Ho&lt;/li&gt;
+&lt;/ul&gt;
+
     &lt;/div&gt;
 
     
   &lt;/div&gt;
 &lt;/div&gt;
+
 
   &lt;div class=&#34;timeline-item&#34;&gt;
   &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
   &lt;div class=&#34;timeline-content&#34;&gt;
     &lt;time datetime=&#34;2021-08-01&#34;&gt;August 2021 - May 2022&lt;/time&gt;
-    &lt;h3&gt;Honour Thesis&lt;/h3&gt;
+    &lt;h3&gt;Undergraduate Thesis&lt;/h3&gt;
     &lt;h1&gt;Algar Research Group, University of British Columbia&lt;/h1&gt;
-    &lt;div class=&#34;timeline-description&#34;&gt;
-      
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;ul&gt;
+&lt;li&gt;Principal investigator: Dr. Russ Algar&lt;/li&gt;
+&lt;li&gt;Characterization And Application Of Energy Transfer In Silicon Nanocrystals For Bioanalysis&lt;/li&gt;
+&lt;/ul&gt;
+
     &lt;/div&gt;
 
     
+      &lt;a href=&#34;https://jackxue.com/thesis&#34; class=&#34;timeline-button&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Learn More&lt;/a&gt;
+    
   &lt;/div&gt;
 &lt;/div&gt;
+
 
   &lt;div class=&#34;timeline-item&#34;&gt;
   &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
   &lt;div class=&#34;timeline-content&#34;&gt;
     &lt;time datetime=&#34;2020-11-01&#34;&gt;November 2020 - June 2021&lt;/time&gt;
-    &lt;h3&gt;Bachelor of Science - BSc, Chemical Biology&lt;/h3&gt;
-    &lt;h1&gt;University of British Columbia&lt;/h1&gt;
-    &lt;div class=&#34;timeline-description&#34;&gt;
-      
+    &lt;h3&gt;NSERC Project&lt;/h3&gt;
+    &lt;h1&gt;Algar Research Group, University of British Columbia&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;ul&gt;
+&lt;li&gt;Principal investigator: Dr. Russ Algar&lt;/li&gt;
+&lt;li&gt;Characterization of Silicon Nanocrystals via novel PAGE format for capillary gel electrophoresis&lt;/li&gt;
+&lt;li&gt;Funded by modified NSERC USRA&lt;/li&gt;
+&lt;/ul&gt;
+
     &lt;/div&gt;
 
     
@@ -295,7 +350,7 @@
   }
   .timeline-content h3 {
     font-weight: 600;
-    font-size: 1.3rem;  
+    font-size: 1.2rem;  
     margin: 0 0 0.25rem 0;
     color: #6a85ab;  
   }
@@ -309,8 +364,9 @@
     display: block;
     font-size: 0.875rem;  
     color: #6b7280;  
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
   }
+   
   [data-theme=&#34;dark&#34;] .timeline-content p {
     margin: 0;
     font-size: 0.9rem;
@@ -322,9 +378,25 @@
     color: #1b1b1b;  
   }
 
+  .timeline-content .description {
+    margin: 0.5rem 0;
+  }
+  .timeline-content .description ul,
+  .timeline-content .description ol {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+  }
+  .timeline-content .description li {
+    margin: 0.5rem 0;
+    line-height: 1;
+  }
+  .timeline-content .description p {
+    margin: 0.5rem 0;
+  }
+
   .timeline-button {
     display: inline-block;
-    margin-top: -1.0rem;
+    margin-top: 0.5rem;
     padding: 0.28rem 0.75rem;
     background-color: #435874;  
     color: rgb(213, 213, 213);
@@ -352,8 +424,12 @@
     &lt;time datetime=&#34;2021-12-01&#34;&gt;December 2021 - Present&lt;/time&gt;
     &lt;h3&gt;Tutor&lt;/h3&gt;
     &lt;h1&gt;Online / Remote&lt;/h1&gt;
-    &lt;div class=&#34;timeline-description&#34;&gt;
-      
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;ul&gt;
+&lt;li&gt;High school and undergraduate sciences and mathematics&lt;/li&gt;
+&lt;li&gt;MCAT, Casper, application reviews, and interview preparation&lt;/li&gt;
+&lt;/ul&gt;
+
     &lt;/div&gt;
 
     
@@ -369,8 +445,32 @@
     &lt;time datetime=&#34;2023-07-01&#34;&gt;July 2023 - August 2024&lt;/time&gt;
     &lt;h3&gt;Coordinator&lt;/h3&gt;
     &lt;h1&gt;Canadian Red Cross&lt;/h1&gt;
-    &lt;div class=&#34;timeline-description&#34;&gt;
-      
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;ul&gt;
+&lt;li&gt;Managed over 150 volunteers across 4 sites&lt;/li&gt;
+&lt;li&gt;Administration and QA audits&lt;/li&gt;
+&lt;li&gt;Management of personal health information and health authority contracts&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2021-12-01&#34;&gt;December 2021 - March 2024&lt;/time&gt;
+    &lt;h3&gt;Operations Lead&lt;/h3&gt;
+    &lt;h1&gt;e-Commerce Store (Etsy)&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;ul&gt;
+&lt;li&gt;Logistics (production and shipping), bookkeeping, and accounting&lt;/li&gt;
+&lt;li&gt;Maintain financial records and tax preparation&lt;/li&gt;
+&lt;/ul&gt;
+
     &lt;/div&gt;
 
     
@@ -384,8 +484,13 @@
     &lt;time datetime=&#34;2019-04-01&#34;&gt;April 2019 - October 2021&lt;/time&gt;
     &lt;h3&gt;Pharmacy Assistant&lt;/h3&gt;
     &lt;h1&gt;Loblaw Companies Limited&lt;/h1&gt;
-    &lt;div class=&#34;timeline-description&#34;&gt;
-      
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;ul&gt;
+&lt;li&gt;Process prescriptions and prepare medications&lt;/li&gt;
+&lt;li&gt;Inventory auditing&lt;/li&gt;
+&lt;li&gt;Train new pharmacy assistants&lt;/li&gt;
+&lt;/ul&gt;
+
     &lt;/div&gt;
 
     
@@ -399,7 +504,612 @@
     &lt;time datetime=&#34;2019-05-01&#34;&gt;May 2019 - September 2019&lt;/time&gt;
     &lt;h3&gt;Laboratory Assistant&lt;/h3&gt;
     &lt;h1&gt;University of British Columbia&lt;/h1&gt;
-    &lt;div class=&#34;timeline-description&#34;&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;ul&gt;
+&lt;li&gt;Prepare packages for field experiments and analysis&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;projects&#34;&gt;Projects&lt;/h3&gt;
+&lt;style&gt;
+  .timeline {
+    position: relative;
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+    border-left: 2px solid #505c6f;  
+    margin-bottom: 2rem;
+  }
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  .timeline-marker {
+    position: absolute;
+    left: -1.91rem;
+    top: 0.3rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: #505c6f;
+    border: 0.5 px solid #2d446a;  
+    border-radius: 50%;
+  }
+  .timeline-content h3 {
+    font-weight: 600;
+    font-size: 1.2rem;  
+    margin: 0 0 0.25rem 0;
+    color: #6a85ab;  
+  }
+  .timeline-content h1 {
+    color: #6b7280;
+    font-size: 1rem;
+    font-style: italic;
+    margin: 0 0 0.25rem 0;
+  }
+  .timeline-content time {
+    display: block;
+    font-size: 0.875rem;  
+    color: #6b7280;  
+    margin-bottom: 0.4rem;
+  }
+   
+  [data-theme=&#34;dark&#34;] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #d0cfcf;  
+  }
+  [data-theme=&#34;light&#34;] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #1b1b1b;  
+  }
+
+  .timeline-content .description {
+    margin: 0.5rem 0;
+  }
+  .timeline-content .description ul,
+  .timeline-content .description ol {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+  }
+  .timeline-content .description li {
+    margin: 0.5rem 0;
+    line-height: 1;
+  }
+  .timeline-content .description p {
+    margin: 0.5rem 0;
+  }
+
+  .timeline-button {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.28rem 0.75rem;
+    background-color: #435874;  
+    color: rgb(213, 213, 213);
+    text-decoration: none !important;
+    border: 1px solid #6b7280;
+    border-radius: 0.3rem;  
+    font-size: 0.875rem;
+    font-weight: 400;
+     
+    box-shadow: none !important;
+    outline: none;
+ 
+  }
+  .timeline-button:hover {
+    background-color: #6b7280;  
+    color: white;
+  }
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline&#34;&gt;
+  
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2020-12-01&#34;&gt;December 2020 - September 2021&lt;/time&gt;
+    &lt;h3&gt;3D Printing: Ear-savers for COVID-19&lt;/h3&gt;
+    &lt;h1&gt;Vancouver, BC&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;ul&gt;
+&lt;li&gt;Printed and distributed ear-savers for front-line workers&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2019-12-01&#34;&gt;December 2019 - Present&lt;/time&gt;
+    &lt;h3&gt;Learning to Code&lt;/h3&gt;
+    &lt;h1&gt;Self-teaching&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;ul&gt;
+&lt;li&gt;Python, R, HTML, CSS&lt;/li&gt;
+&lt;li&gt;Deploying sites with Quartz, Hugo, Github&lt;/li&gt;
+&lt;li&gt;API integration, web scraping, automation&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+
+    
+      &lt;a href=&#34;https://github.com/awidne&#34; class=&#34;timeline-button&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Learn More&lt;/a&gt;
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;volunteering&#34;&gt;Volunteering&lt;/h3&gt;
+&lt;style&gt;
+  .timeline {
+    position: relative;
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+    border-left: 2px solid #505c6f;  
+    margin-bottom: 2rem;
+  }
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  .timeline-marker {
+    position: absolute;
+    left: -1.91rem;
+    top: 0.3rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: #505c6f;
+    border: 0.5 px solid #2d446a;  
+    border-radius: 50%;
+  }
+  .timeline-content h3 {
+    font-weight: 600;
+    font-size: 1.2rem;  
+    margin: 0 0 0.25rem 0;
+    color: #6a85ab;  
+  }
+  .timeline-content h1 {
+    color: #6b7280;
+    font-size: 1rem;
+    font-style: italic;
+    margin: 0 0 0.25rem 0;
+  }
+  .timeline-content time {
+    display: block;
+    font-size: 0.875rem;  
+    color: #6b7280;  
+    margin-bottom: 0.4rem;
+  }
+   
+  [data-theme=&#34;dark&#34;] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #d0cfcf;  
+  }
+  [data-theme=&#34;light&#34;] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #1b1b1b;  
+  }
+
+  .timeline-content .description {
+    margin: 0.5rem 0;
+  }
+  .timeline-content .description ul,
+  .timeline-content .description ol {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+  }
+  .timeline-content .description li {
+    margin: 0.5rem 0;
+    line-height: 1;
+  }
+  .timeline-content .description p {
+    margin: 0.5rem 0;
+  }
+
+  .timeline-button {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.28rem 0.75rem;
+    background-color: #435874;  
+    color: rgb(213, 213, 213);
+    text-decoration: none !important;
+    border: 1px solid #6b7280;
+    border-radius: 0.3rem;  
+    font-size: 0.875rem;
+    font-weight: 400;
+     
+    box-shadow: none !important;
+    outline: none;
+ 
+  }
+  .timeline-button:hover {
+    background-color: #6b7280;  
+    color: white;
+  }
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline&#34;&gt;
+  
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2020-08-01&#34;&gt;August 2020 - Present&lt;/time&gt;
+    &lt;h3&gt;Mentoring&lt;/h3&gt;
+    &lt;h1&gt;Self&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2022-04-01&#34;&gt;April 2022 - July 2023&lt;/time&gt;
+    &lt;h3&gt;Health Equipment Volunteer&lt;/h3&gt;
+    &lt;h1&gt;Canadian Red Cross&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2021-02-01&#34;&gt;February 2021 - April 2023&lt;/time&gt;
+    &lt;h3&gt;Tax Preparation and Seminars&lt;/h3&gt;
+    &lt;h1&gt;Self&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2018-02-01&#34;&gt;February 2018 - May 2022&lt;/time&gt;
+    &lt;h3&gt;PC Building for Low-SES Students&lt;/h3&gt;
+    &lt;h1&gt;Self&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2018-01-01&#34;&gt;January 2018 - March 2020&lt;/time&gt;
+    &lt;h3&gt;Hospital Volunteer&lt;/h3&gt;
+    &lt;h1&gt;Vancouver Coastal Health&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;awards-and-honours&#34;&gt;Awards and Honours&lt;/h3&gt;
+&lt;style&gt;
+  .timeline {
+    position: relative;
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+    border-left: 2px solid #505c6f;  
+    margin-bottom: 2rem;
+  }
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  .timeline-marker {
+    position: absolute;
+    left: -1.91rem;
+    top: 0.3rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: #505c6f;
+    border: 0.5 px solid #2d446a;  
+    border-radius: 50%;
+  }
+  .timeline-content h3 {
+    font-weight: 600;
+    font-size: 1.2rem;  
+    margin: 0 0 0.25rem 0;
+    color: #6a85ab;  
+  }
+  .timeline-content h1 {
+    color: #6b7280;
+    font-size: 1rem;
+    font-style: italic;
+    margin: 0 0 0.25rem 0;
+  }
+  .timeline-content time {
+    display: block;
+    font-size: 0.875rem;  
+    color: #6b7280;  
+    margin-bottom: 0.4rem;
+  }
+   
+  [data-theme=&#34;dark&#34;] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #d0cfcf;  
+  }
+  [data-theme=&#34;light&#34;] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #1b1b1b;  
+  }
+
+  .timeline-content .description {
+    margin: 0.5rem 0;
+  }
+  .timeline-content .description ul,
+  .timeline-content .description ol {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+  }
+  .timeline-content .description li {
+    margin: 0.5rem 0;
+    line-height: 1;
+  }
+  .timeline-content .description p {
+    margin: 0.5rem 0;
+  }
+
+  .timeline-button {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.28rem 0.75rem;
+    background-color: #435874;  
+    color: rgb(213, 213, 213);
+    text-decoration: none !important;
+    border: 1px solid #6b7280;
+    border-radius: 0.3rem;  
+    font-size: 0.875rem;
+    font-weight: 400;
+     
+    box-shadow: none !important;
+    outline: none;
+ 
+  }
+  .timeline-button:hover {
+    background-color: #6b7280;  
+    color: white;
+  }
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline&#34;&gt;
+  
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2020-09-01&#34;&gt;September 2020&lt;/time&gt;
+    &lt;h3&gt;Dean of Science Scholarship&lt;/h3&gt;
+    &lt;h1&gt;University of British Columbia&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2020-05-01&#34;&gt;May 2020&lt;/time&gt;
+    &lt;h3&gt;Undergraduate Student Research Award&lt;/h3&gt;
+    &lt;h1&gt;Natural Sciences and Engineering Research Council of Canada&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2019-08-01&#34;&gt;August 2019, 2020&lt;/time&gt;
+    &lt;h3&gt;Loblaw National Scholarship&lt;/h3&gt;
+    &lt;h1&gt;Loblaw Companies Limited&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2019-12-01&#34;&gt;December 2019&lt;/time&gt;
+    &lt;h3&gt;Science Scholar&lt;/h3&gt;
+    &lt;h1&gt;University of British Columbia&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2018-12-01&#34;&gt;December 2018 - April 2022&lt;/time&gt;
+    &lt;h3&gt;Dean&amp;#39;s Honour Roll&lt;/h3&gt;
+    &lt;h1&gt;University of British Columbia&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;certificates&#34;&gt;Certificates&lt;/h3&gt;
+&lt;style&gt;
+  .timeline {
+    position: relative;
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+    border-left: 2px solid #505c6f;  
+    margin-bottom: 2rem;
+  }
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  .timeline-marker {
+    position: absolute;
+    left: -1.91rem;
+    top: 0.3rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: #505c6f;
+    border: 0.5 px solid #2d446a;  
+    border-radius: 50%;
+  }
+  .timeline-content h3 {
+    font-weight: 600;
+    font-size: 1.2rem;  
+    margin: 0 0 0.25rem 0;
+    color: #6a85ab;  
+  }
+  .timeline-content h1 {
+    color: #6b7280;
+    font-size: 1rem;
+    font-style: italic;
+    margin: 0 0 0.25rem 0;
+  }
+  .timeline-content time {
+    display: block;
+    font-size: 0.875rem;  
+    color: #6b7280;  
+    margin-bottom: 0.4rem;
+  }
+   
+  [data-theme=&#34;dark&#34;] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #d0cfcf;  
+  }
+  [data-theme=&#34;light&#34;] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #1b1b1b;  
+  }
+
+  .timeline-content .description {
+    margin: 0.5rem 0;
+  }
+  .timeline-content .description ul,
+  .timeline-content .description ol {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+  }
+  .timeline-content .description li {
+    margin: 0.5rem 0;
+    line-height: 1;
+  }
+  .timeline-content .description p {
+    margin: 0.5rem 0;
+  }
+
+  .timeline-button {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.28rem 0.75rem;
+    background-color: #435874;  
+    color: rgb(213, 213, 213);
+    text-decoration: none !important;
+    border: 1px solid #6b7280;
+    border-radius: 0.3rem;  
+    font-size: 0.875rem;
+    font-weight: 400;
+     
+    box-shadow: none !important;
+    outline: none;
+ 
+  }
+  .timeline-button:hover {
+    background-color: #6b7280;  
+    color: white;
+  }
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline&#34;&gt;
+  
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2024-08-01&#34;&gt;August 2024&lt;/time&gt;
+    &lt;h3&gt;CPR/AED Level C&lt;/h3&gt;
+    &lt;h1&gt;Canadian Red Cross&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
       
     &lt;/div&gt;
 
@@ -456,11 +1166,48 @@ html {
 &lt;/script&gt;</description>
     </item>
     <item>
+      <title>Hidden</title>
+      <link>http://localhost:1313/hidden/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hidden/</guid>
+      <description>&lt;h2 id=&#34;hi&#34;&gt;Hi&lt;/h2&gt;
+&lt;div class=&#34;video-container&#34; style=&#34;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+&#34;&gt;
+    &lt;video 
+        width=&#34;800&#34; 
+        height=&#34;450&#34;
+        style=&#34;
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        &#34;
+        controls
+        controlsList=&#34;nodownload&#34;
+    &gt;
+        &lt;source src=&#34;http://localhost:1313/videos/hijack.mp4&#34; type=&#34;video/mp4&#34;&gt;
+        Your browser does not support the video tag.
+    &lt;/video&gt;
+&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Thesis</title>
+      <link>http://localhost:1313/thesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/thesis/</guid>
+      <description>&lt;h2 id=&#34;thesis-page&#34;&gt;Thesis Page&lt;/h2&gt;
+&lt;p&gt;This page is currently being built. Please come back later.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Tutoring Services</title>
       <link>http://localhost:1313/tutoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutoring/</guid>
-      <description>&lt;h2 id=&#34;coming-soon&#34;&gt;Coming soon&lt;/h2&gt;</description>
+      <description>&lt;h2 id=&#34;tutoring-services&#34;&gt;Tutoring Services&lt;/h2&gt;
+&lt;p&gt;This page is still being built. Please come back later.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

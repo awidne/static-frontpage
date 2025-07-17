@@ -5,6 +5,6 @@ aliases: ["/thesis"]
 hideTitle: true
 ---
 
-## Thesis page
+## Thesis Page
 
-This page is still being built. Please come back later.
+This page is currently being built. Please come back later.
