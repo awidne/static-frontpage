@@ -80,9 +80,9 @@ params:
 
 menu:
   main:
-    - identifier: about
-      name: About
-      url: /about/
+    - identifier: cv
+      name: CV
+      url: /cv/
       weight: 10
     - identifier: tutoring
       name: Tutoring

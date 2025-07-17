@@ -1,0 +1,96 @@
+<style>
+  .timeline {
+    position: relative;
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+    border-left: 2px solid #505c6f; /* blue-500 */
+    margin-bottom: 2rem;
+  }
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  .timeline-marker {
+    position: absolute;
+    left: -1.91rem;
+    top: 0.3rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: #505c6f;
+    border: 0.5 px solid #2d446a; /* blue-500 */
+    border-radius: 50%;
+  }
+  .timeline-content h3 {
+    font-weight: 600;
+    font-size: 1.2rem; /* 18px */
+    margin: 0 0 0.25rem 0;
+    color: #6a85ab; /* dark text */
+  }
+  .timeline-content h1 {
+    color: #6b7280;
+    font-size: 1rem;
+    font-style: italic;
+    margin: 0 0 0.25rem 0;
+  }
+  .timeline-content time {
+    display: block;
+    font-size: 0.875rem; /* 14px */
+    color: #6b7280; /* gray-500 */
+    margin-bottom: 0.4rem;
+  }
+  /* this section is currently not in use */
+  [data-theme="dark"] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #d0cfcf; /* gray-700 */
+  }
+  [data-theme="light"] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #1b1b1b; /* gray-700 */
+  }
+
+  .timeline-content .description {
+    margin: 0.5rem 0;
+  }
+  .timeline-content .description ul,
+  .timeline-content .description ol {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+  }
+  .timeline-content .description li {
+    margin: 0.5rem 0;
+    line-height: 1;
+  }
+  .timeline-content .description p {
+    margin: 0.5rem 0;
+  }
+
+  .timeline-button {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.28rem 0.75rem;
+    background-color: #435874; /* blue-500 */
+    color: rgb(213, 213, 213);
+    text-decoration: none !important;
+    border: 1px solid #6b7280;
+    border-radius: 0.3rem; /* rounded-md */
+    font-size: 0.875rem;
+    font-weight: 400;
+    /* transition: background-color 0.2s ease-in-out; */
+    box-shadow: none !important;
+    outline: none;
+ 
+  }
+  .timeline-button:hover {
+    background-color: #6b7280; /* blue-600 */
+    color: white;
+  }
+</style>
+
+<div class="timeline">
+  {{ .Inner }}
+</div>

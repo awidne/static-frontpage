@@ -1,0 +1,43 @@
+<a href="#top" class="scroll-to-top" aria-label="Return to top">↑</a>
+
+<style>
+.scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  background-color: #505c6f;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  box-shadow: none !important;
+  opacity: 0.7;
+  /* transition: opacity 0.3s ease; */
+  z-index: 999;
+}
+
+.scroll-to-top:hover {
+  opacity: 1;
+  background-color: #505050;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+</style>
+
+<script>
+  const scrollBtn = document.querySelector('.scroll-to-top');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+      scrollBtn.style.display = 'flex';
+    } else {
+      scrollBtn.style.display = 'none';
+    }
+  });
+</script>

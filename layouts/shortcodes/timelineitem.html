@@ -1,0 +1,15 @@
+<div class="timeline-item">
+  <span class="timeline-marker"></span>
+  <div class="timeline-content">
+    <time datetime="{{ .Get "datetime" }}">{{ .Get "date" }}</time>
+    <h3>{{ .Get "title" }}</h3>
+    <h1>{{ .Get "location" }}</h1>
+    <div class="description">
+      {{ .Inner | markdownify }}
+    </div>
+
+    {{ with .Get "url" }}
+      <a href="{{ . }}" class="timeline-button" target="_blank" rel="noopener noreferrer">Learn More</a>
+    {{ end }}
+  </div>
+</div>

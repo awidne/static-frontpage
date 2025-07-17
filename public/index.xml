@@ -21,11 +21,439 @@
       <description>Repository of my condensed notes organized by topic. Work-in-progress.</description>
     </item>
     <item>
-      <title>About Section</title>
-      <link>http://localhost:1313/about/</link>
+      <title>CV</title>
+      <link>http://localhost:1313/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h2 id=&#34;coming-soon&#34;&gt;Coming soon&lt;/h2&gt;</description>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;h2 id=&#34;cirriculum-vitae--jack-xue&#34;&gt;Cirriculum Vitae | Jack Xue&lt;/h2&gt;
+&lt;p&gt;Medical student at Queen&amp;rsquo;s University School of Medicine with a background in chemistry and biology. Skills and experiences in teaching, non-profit management, research, and more.&lt;/p&gt;
+&lt;h3 id=&#34;education&#34;&gt;Education&lt;/h3&gt;
+&lt;style&gt;
+  .timeline {
+    position: relative;
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+    border-left: 2px solid #505c6f;  
+    margin-bottom: 2rem;
+  }
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  .timeline-marker {
+    position: absolute;
+    left: -1.91rem;
+    top: 0.3rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: #505c6f;
+    border: 0.5 px solid #2d446a;  
+    border-radius: 50%;
+  }
+  .timeline-content h3 {
+    font-weight: 600;
+    font-size: 1.3rem;  
+    margin: 0 0 0.25rem 0;
+    color: #6a85ab;  
+  }
+  .timeline-content h1 {
+    color: #6b7280;
+    font-size: 1rem;
+    font-style: italic;
+    margin: 0 0 0.25rem 0;
+  }
+  .timeline-content time {
+    display: block;
+    font-size: 0.875rem;  
+    color: #6b7280;  
+    margin-bottom: 0.5rem;
+  }
+  [data-theme=&#34;dark&#34;] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #d0cfcf;  
+  }
+  [data-theme=&#34;light&#34;] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #1b1b1b;  
+  }
+
+  .timeline-button {
+    display: inline-block;
+    margin-top: -1.0rem;
+    padding: 0.28rem 0.75rem;
+    background-color: #435874;  
+    color: rgb(213, 213, 213);
+    text-decoration: none !important;
+    border: 1px solid #6b7280;
+    border-radius: 0.3rem;  
+    font-size: 0.875rem;
+    font-weight: 400;
+     
+    box-shadow: none !important;
+    outline: none;
+ 
+  }
+  .timeline-button:hover {
+    background-color: #6b7280;  
+    color: white;
+  }
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline&#34;&gt;
+  
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2024-09-01&#34;&gt;September 2024 - Present&lt;/time&gt;
+    &lt;h3&gt;Doctor of Medicine - MD&lt;/h3&gt;
+    &lt;h1&gt;Queen&amp;#39;s University&lt;/h1&gt;
+    &lt;div class=&#34;timeline-description&#34;&gt;
+      &lt;ul&gt;
+&lt;li&gt;test&lt;/li&gt;
+&lt;li&gt;test2&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2018-09-01&#34;&gt;September 2018 - April 2022&lt;/time&gt;
+    &lt;h3&gt;Bachelor of Science - BSc, Chemical Biology&lt;/h3&gt;
+    &lt;h1&gt;University of British Columbia&lt;/h1&gt;
+    &lt;div class=&#34;timeline-description&#34;&gt;
+      
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;research&#34;&gt;Research&lt;/h3&gt;
+&lt;style&gt;
+  .timeline {
+    position: relative;
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+    border-left: 2px solid #505c6f;  
+    margin-bottom: 2rem;
+  }
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  .timeline-marker {
+    position: absolute;
+    left: -1.91rem;
+    top: 0.3rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: #505c6f;
+    border: 0.5 px solid #2d446a;  
+    border-radius: 50%;
+  }
+  .timeline-content h3 {
+    font-weight: 600;
+    font-size: 1.3rem;  
+    margin: 0 0 0.25rem 0;
+    color: #6a85ab;  
+  }
+  .timeline-content h1 {
+    color: #6b7280;
+    font-size: 1rem;
+    font-style: italic;
+    margin: 0 0 0.25rem 0;
+  }
+  .timeline-content time {
+    display: block;
+    font-size: 0.875rem;  
+    color: #6b7280;  
+    margin-bottom: 0.5rem;
+  }
+  [data-theme=&#34;dark&#34;] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #d0cfcf;  
+  }
+  [data-theme=&#34;light&#34;] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #1b1b1b;  
+  }
+
+  .timeline-button {
+    display: inline-block;
+    margin-top: -1.0rem;
+    padding: 0.28rem 0.75rem;
+    background-color: #435874;  
+    color: rgb(213, 213, 213);
+    text-decoration: none !important;
+    border: 1px solid #6b7280;
+    border-radius: 0.3rem;  
+    font-size: 0.875rem;
+    font-weight: 400;
+     
+    box-shadow: none !important;
+    outline: none;
+ 
+  }
+  .timeline-button:hover {
+    background-color: #6b7280;  
+    color: white;
+  }
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline&#34;&gt;
+  
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2025-03-01&#34;&gt;March 2025 - Present&lt;/time&gt;
+    &lt;h3&gt;Quality Improvement Project&lt;/h3&gt;
+    &lt;h1&gt;Vancouver Coastal Health&lt;/h1&gt;
+    &lt;div class=&#34;timeline-description&#34;&gt;
+      
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2021-08-01&#34;&gt;August 2021 - May 2022&lt;/time&gt;
+    &lt;h3&gt;Honour Thesis&lt;/h3&gt;
+    &lt;h1&gt;Algar Research Group, University of British Columbia&lt;/h1&gt;
+    &lt;div class=&#34;timeline-description&#34;&gt;
+      
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2020-11-01&#34;&gt;November 2020 - June 2021&lt;/time&gt;
+    &lt;h3&gt;Bachelor of Science - BSc, Chemical Biology&lt;/h3&gt;
+    &lt;h1&gt;University of British Columbia&lt;/h1&gt;
+    &lt;div class=&#34;timeline-description&#34;&gt;
+      
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;work-experience&#34;&gt;Work Experience&lt;/h3&gt;
+&lt;style&gt;
+  .timeline {
+    position: relative;
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+    border-left: 2px solid #505c6f;  
+    margin-bottom: 2rem;
+  }
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  .timeline-marker {
+    position: absolute;
+    left: -1.91rem;
+    top: 0.3rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: #505c6f;
+    border: 0.5 px solid #2d446a;  
+    border-radius: 50%;
+  }
+  .timeline-content h3 {
+    font-weight: 600;
+    font-size: 1.3rem;  
+    margin: 0 0 0.25rem 0;
+    color: #6a85ab;  
+  }
+  .timeline-content h1 {
+    color: #6b7280;
+    font-size: 1rem;
+    font-style: italic;
+    margin: 0 0 0.25rem 0;
+  }
+  .timeline-content time {
+    display: block;
+    font-size: 0.875rem;  
+    color: #6b7280;  
+    margin-bottom: 0.5rem;
+  }
+  [data-theme=&#34;dark&#34;] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #d0cfcf;  
+  }
+  [data-theme=&#34;light&#34;] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #1b1b1b;  
+  }
+
+  .timeline-button {
+    display: inline-block;
+    margin-top: -1.0rem;
+    padding: 0.28rem 0.75rem;
+    background-color: #435874;  
+    color: rgb(213, 213, 213);
+    text-decoration: none !important;
+    border: 1px solid #6b7280;
+    border-radius: 0.3rem;  
+    font-size: 0.875rem;
+    font-weight: 400;
+     
+    box-shadow: none !important;
+    outline: none;
+ 
+  }
+  .timeline-button:hover {
+    background-color: #6b7280;  
+    color: white;
+  }
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline&#34;&gt;
+  
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2021-12-01&#34;&gt;December 2021 - Present&lt;/time&gt;
+    &lt;h3&gt;Tutor&lt;/h3&gt;
+    &lt;h1&gt;Online / Remote&lt;/h1&gt;
+    &lt;div class=&#34;timeline-description&#34;&gt;
+      
+    &lt;/div&gt;
+
+    
+      &lt;a href=&#34;https://jackxue.com/tutoring&#34; class=&#34;timeline-button&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Learn More&lt;/a&gt;
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2023-07-01&#34;&gt;July 2023 - August 2024&lt;/time&gt;
+    &lt;h3&gt;Coordinator&lt;/h3&gt;
+    &lt;h1&gt;Canadian Red Cross&lt;/h1&gt;
+    &lt;div class=&#34;timeline-description&#34;&gt;
+      
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2019-04-01&#34;&gt;April 2019 - October 2021&lt;/time&gt;
+    &lt;h3&gt;Pharmacy Assistant&lt;/h3&gt;
+    &lt;h1&gt;Loblaw Companies Limited&lt;/h1&gt;
+    &lt;div class=&#34;timeline-description&#34;&gt;
+      
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2019-05-01&#34;&gt;May 2019 - September 2019&lt;/time&gt;
+    &lt;h3&gt;Laboratory Assistant&lt;/h3&gt;
+    &lt;h1&gt;University of British Columbia&lt;/h1&gt;
+    &lt;div class=&#34;timeline-description&#34;&gt;
+      
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;/div&gt;
+
+&lt;a href=&#34;#top&#34; class=&#34;scroll-to-top&#34; aria-label=&#34;Return to top&#34;&gt;↑&lt;/a&gt;
+
+&lt;style&gt;
+.scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  background-color: #505c6f;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  box-shadow: none !important;
+  opacity: 0.7;
+   
+  z-index: 999;
+}
+
+.scroll-to-top:hover {
+  opacity: 1;
+  background-color: #505050;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+&lt;/style&gt;
+
+&lt;script&gt;
+  const scrollBtn = document.querySelector(&#39;.scroll-to-top&#39;);
+  window.addEventListener(&#39;scroll&#39;, () =&gt; {
+    if (window.scrollY &gt; 300) {
+      scrollBtn.style.display = &#39;flex&#39;;
+    } else {
+      scrollBtn.style.display = &#39;none&#39;;
+    }
+  });
+&lt;/script&gt;</description>
     </item>
     <item>
       <title>Tutoring Services</title>

@@ -1,10 +1,10 @@
 ---
-title: "Tutoring Services"
+title: "Thesis"
 summary: 
-aliases: ["/tutoring"]
+aliases: ["/thesis"]
 hideTitle: true
 ---
 
-## Tutoring Services
+## Thesis page
 
 This page is still being built. Please come back later.
