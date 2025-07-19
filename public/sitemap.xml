@@ -13,14 +13,22 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/contact/</loc>
+  </url><url>
     <loc>http://localhost:1313/cv/</loc>
   </url><url>
+    <loc>http://localhost:1313/k12-tutoring/</loc>
+  </url><url>
     <loc>http://localhost:1313/hidden/</loc>
+  </url><url>
+    <loc>http://localhost:1313/premed-tutoring/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/thesis/</loc>
   </url><url>
     <loc>http://localhost:1313/tutoring/</loc>
+  </url><url>
+    <loc>http://localhost:1313/university-tutoring/</loc>
   </url>
 </urlset>

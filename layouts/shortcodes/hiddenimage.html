@@ -1,0 +1,12 @@
+<details class="hidden-image" style="margin: 1em 0;">
+    <summary style="cursor: pointer; font-weight: 400; font-size: 0.9rem; color:rgb(79, 79, 79); padding: 0.5em 0.5em; background-color: #e8e7e7; border-radius: 3px;">
+        {{ with .Get "title" }}{{ . }}{{ else }}Show/Hide Image{{ end }}
+    </summary>
+    <div style="padding: 0.2em 0em 0em 0em; margin-top: -0.8em; background-color: #e8e7e7">
+        {{ if .Get "src" }}
+            <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" style="max-width: 100%; height: auto; border-radius: 3px;">
+        {{ else }}
+            {{ .Inner | markdownify }}
+        {{ end }}
+    </div>
+</details>

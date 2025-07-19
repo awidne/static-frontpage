@@ -51,7 +51,7 @@ Medical student at Queen's University School of Medicine with a background in ch
       datetime="2021-08-01" 
       title="Undergraduate Thesis"
       location="Algar Research Group, University of British Columbia"
-      url="https://jackxue.com/thesis"
+      url="/thesis"
   >}}
   - Principal investigator: Dr. Russ Algar
   - Characterization And Application Of Energy Transfer In Silicon Nanocrystals For Bioanalysis
@@ -79,7 +79,7 @@ Medical student at Queen's University School of Medicine with a background in ch
       datetime="2021-12-01" 
       title="Tutor" 
       location="Online / Remote"
-      url="https://jackxue.com/tutoring"
+      url="/tutoring"
   >}}
   - High school and undergraduate sciences and mathematics
   - MCAT, Casper, application reviews, and interview preparation
@@ -125,12 +125,45 @@ Medical student at Queen's University School of Medicine with a background in ch
   >}}
   - Prepare packages for field experiments and analysis
   {{< /timelineitem >}}
+{{< /timeline >}}
+
+### Certificates
+
+{{< timeline >}}
+  {{< timelineitem 
+      date="August 2024" 
+      datetime="2024-08-01" 
+      title="CPR/AED Level C"
+      location="Canadian Red Cross"
+  >}}
+  {{< /timelineitem >}}
 
 {{< /timeline >}}
 
 ### Projects
 
 {{< timeline >}}
+  {{< timelineitem 
+      date="January 2020 - Present" 
+      datetime="2020-01-01" 
+      title="Personal Investing"
+      location="Self"
+  >}}
+  - Broad-based total-market index investment
+  {{< /timelineitem >}}
+
+  {{< timelineitem 
+      date="December 2019 - Present" 
+      datetime="2019-12-01" 
+      title="Programming and Web Development" 
+      location="Self"
+      url="https://github.com/awidne"
+  >}}
+  - Python, R, HTML, CSS
+  - Deploying sites with Quartz, Hugo, Github
+  - API integration, web scraping, automation
+  {{< /timelineitem >}}
+
   {{< timelineitem 
       date="December 2020 - September 2021" 
       datetime="2020-12-01" 
@@ -139,19 +172,6 @@ Medical student at Queen's University School of Medicine with a background in ch
   >}}
   - Printed and distributed ear-savers for front-line workers
   {{< /timelineitem >}}
-
-  {{< timelineitem 
-      date="December 2019 - Present" 
-      datetime="2019-12-01" 
-      title="Learning to Code" 
-      location="Self-teaching"
-      url="https://github.com/awidne"
-  >}}
-  - Python, R, HTML, CSS
-  - Deploying sites with Quartz, Hugo, Github
-  - API integration, web scraping, automation
-  {{< /timelineitem >}}
-
 {{< /timeline >}}
 
 ### Volunteering
@@ -243,20 +263,12 @@ Medical student at Queen's University School of Medicine with a background in ch
   >}}
   {{< /timelineitem >}}
 
-{{< /timeline >}}
-
-### Certificates
-
-{{< timeline >}}
   {{< timelineitem 
-      date="August 2024" 
-      datetime="2024-08-01" 
-      title="CPR/AED Level C"
-      location="Canadian Red Cross"
+      date="September 2018" 
+      datetime="2018-09-01" 
+      title="BC Achievement Scholarship"
+      location="Government of British Columbia"
   >}}
   {{< /timelineitem >}}
 
 {{< /timeline >}}
-
-
-{{< returntop >}}

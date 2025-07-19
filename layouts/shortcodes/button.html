@@ -1,0 +1,29 @@
+{{- $align := .Get "align" | default "center" -}}
+{{- $validAlignments := slice "left" "center" "right" -}}
+{{- if not (in $validAlignments $align) -}}
+    {{- $align = "center" -}}
+{{- end -}}
+
+<div class="button-container" style="text-align: {{ $align }}; margin: 1em 0;">
+    <a href="{{ .Get "url" }}" class="button" style="
+        display: inline-block;
+        padding: 0.5em 1.2em;
+        background-color: rgb(239, 239, 239);
+        color: rgb(79, 79, 79);
+        font-size: 0.9rem;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: all 0.2s ease;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: none !important;
+    ">
+        {{ .Get "text" }}
+    </a>
+</div>
+
+<style>
+    .button:hover {
+        background-color: var(--primary-hover);
+        transform: translateY(-2px);
+    }
+</style>

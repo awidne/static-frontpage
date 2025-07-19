@@ -1,0 +1,162 @@
+<div class="contact-form">
+  <h2>Contact Us</h2>
+  
+  <form action="https://api.web3forms.com/submit" method="POST" class="form">
+    <!-- Web3Forms Hidden Fields -->
+    <input type="hidden" name="access_key" value="YOUR-WEB3FORMS-ACCESS-KEY">
+    <input type="hidden" name="redirect" value="https://yourdomain.com/thank-you">
+    <input type="hidden" name="from_name" value="Your Site Name">
+    <input type="checkbox" name="botcheck" class="hidden">
+
+    <!-- Name Input -->
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input 
+        type="text" 
+        id="name" 
+        name="name" 
+        placeholder="John Doe" 
+        value="{{ with .Get "name" }}{{ . }}{{ else }}{{ index .Page.Params "name" }}{{ end }}"
+        required
+      >
+    </div>
+
+    <!-- Email Input -->
+    <div class="form-group">
+      <label for="email">Your Email</label>
+      <input 
+        type="email" 
+        id="email" 
+        name="email" 
+        placeholder="john@example.com" 
+        value="{{ with .Get "email" }}{{ . }}{{ else }}{{ index .Page.Params "email" }}{{ end }}"
+        required
+      >
+    </div>
+
+    <!-- Subject Input -->
+    <div class="form-group">
+      <label for="subject">Subject</label>
+      <input 
+        type="text" 
+        id="subject" 
+        name="subject" 
+        placeholder="How can we help?" 
+        value="{{ with .Get "subject" }}{{ . }}{{ else }}{{ index .Page.Params "subject" }}{{ end }}"
+        required
+      >
+    </div>
+
+    <!-- Message Input -->
+    <div class="form-group">
+      <label for="message">Your Message</label>
+      <textarea 
+        id="message" 
+        name="message" 
+        rows="4" 
+        placeholder="Leave a message..." 
+        required
+      ></textarea>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="submit-btn">Send Message</button>
+  </form>
+</div>
+
+<!-- Auto-fill from URL parameters -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const fields = ['name', 'email', 'subject'];
+    
+    fields.forEach(field => {
+      const value = urlParams.get(field);
+      if (value) {
+        const input = document.getElementById(field);
+        if (input) input.value = decodeURIComponent(value);
+      }
+    });
+  });
+</script>
+
+<!-- Custom CSS (add to your theme's CSS file or inline) -->
+<style>
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #555;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+  .form-group textarea {
+    resize: vertical;
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #0066ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .submit-btn:hover {
+    background: #0052cc;
+  }
+
+  /* Dark mode support (if your theme supports it) */
+  @media (prefers-color-scheme: dark) {
+    .contact-form {
+      background: #222;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .contact-form h2 {
+      color: #eee;
+    }
+
+    .form-group label {
+      color: #bbb;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      background: #333;
+      border-color: #444;
+      color: #fff;
+    }
+  }
+</style>
