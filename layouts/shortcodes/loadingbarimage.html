@@ -1,0 +1,97 @@
+<div class="loading-bar-container">
+  <div class="loading-bar">
+    <div class="loading-progress"></div>
+  </div>
+  <div class="loading-text">Loading... <span class="loading-percentage">0%</span></div>
+  <div class="celebration-gif">
+    <img src="/haha.gif" 
+         alt="Funny cat gif">
+  </div>
+</div>
+
+<style>
+  .loading-bar-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    font-family: sans-serif;
+  }
+  
+  .loading-bar {
+    height: 20px;
+    background: #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 8px;
+  }
+  
+  .loading-progress {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #5a5a5a 0%, #747474 100%);
+    border-radius: 10px;
+    transition: width 1.5s ease;
+  }
+  
+  .loading-text {
+    text-align: center;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .celebration-gif {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .celebration-gif img {
+    width: 90%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .celebration-gif img:hover {
+    transform: scale(1.05);
+  }
+
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const progressBar = document.querySelector('.loading-progress');
+    const percentage = document.querySelector('.loading-percentage');
+    const celebration = document.querySelector('.celebration-gif');
+    
+    let progress = 0;
+    const interval = setInterval(() => {
+      // Slow down progress as it nears completion
+      if (progress < 90) {
+        progress += Math.random() * 10;
+      } else if (progress < 99) {
+        progress += Math.random() * 3;
+      } else {
+        progress += 0.1;
+      }
+      
+      if (progress >= 100) {
+        progress = 100;
+        clearInterval(interval);
+        progressBar.style.width = '100%';
+        percentage.textContent = '100%';
+        
+        // Show celebration GIF
+        setTimeout(() => {
+          celebration.style.display = 'block';
+          
+          // Optional: Hide progress elements
+          document.querySelector('.loading-bar').style.display = 'none';
+          document.querySelector('.loading-text').style.display = 'none';
+        }, 500);
+      } else {
+        progressBar.style.width = progress + '%';
+        percentage.textContent = Math.floor(progress) + '%';
+      }
+    }, 300);
+  });
+</script>

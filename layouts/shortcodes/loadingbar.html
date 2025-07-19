@@ -1,0 +1,110 @@
+<div class="loading-bar-container">
+  <div class="loading-bar">
+    <div class="loading-progress"></div>
+  </div>
+  <div class="loading-text">Loading... <span class="loading-percentage">0%</span></div>
+  <div class="loading-message" style="display: none;">Hmm... this is taking longer than expected. 
+    <a href="/secret-page-refresh" class="loading-link" style="text-decoration: none !important;">Refresh</a> or try again later.
+  </div>
+</div>
+
+<style>
+  .loading-bar-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    font-family: sans-serif;
+  }
+  
+  .loading-bar {
+    height: 20px;
+    background: #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 8px;
+  }
+  
+  .loading-progress {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #5a5a5a 0%, #747474 100%);
+    border-radius: 10px;
+    transition: width 1.5s ease;
+  }
+  
+  .loading-text {
+    text-align: center;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .loading-message {
+    text-align: center;
+    color: #36558f;
+  }
+  .loading-link {
+    color: #36558f;
+    text-decoration: none !important;
+    font-weight: 500;
+    -webkit-text-decoration: none !important;
+  }
+
+  .loading-progress[style*="99%"] {
+    animation: flicker 0.8s infinite alternate;
+  }
+
+  @keyframes flicker {
+    from { opacity: 0.9; }
+    to { opacity: 1; }
+  }
+
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const progressBar = document.querySelector('.loading-progress');
+    const percentage = document.querySelector('.loading-percentage');
+    const message = document.querySelector('.loading-message');
+    
+    let progress = 0;
+    
+    // Slower animation with easing
+    const animateProgress = () => {
+      // Slower random increments (1-4% at a time)
+      progress += 1 + Math.random() * 3;
+      
+      // Slow down as we approach 99%
+      if (progress > 80) {
+        progress += 0.5 + Math.random();
+      }
+      
+      if (progress >= 99) {
+        progress = 99;
+        progressBar.style.width = '99%';
+        percentage.textContent = '99%';
+        message.style.display = 'block';
+        
+        // Add subtle pulse animation at 99%
+        progressBar.style.animation = 'pulse 1.5s infinite';
+        return;
+      }
+      
+      progressBar.style.width = progress + '%';
+      percentage.textContent = Math.floor(progress) + '%';
+      
+      // Variable speed - slower as progress increases
+      const speed = 400 + (progress * 10);
+      setTimeout(animateProgress, speed);
+    };
+    
+    // Start the animation
+    setTimeout(animateProgress, 1000);
+  });
+</script>
+
+<style>
+  @keyframes pulse {
+    0% { opacity: 0.95; }
+    50% { opacity: 1; }
+    100% { opacity: 0.95; }
+  }
+</style>

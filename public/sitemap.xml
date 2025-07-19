@@ -25,6 +25,10 @@
   </url><url>
     <loc>http://localhost:1313/premed-tutoring/</loc>
   </url><url>
+    <loc>http://localhost:1313/secret-page-2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secret-page/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/thesis/</loc>
