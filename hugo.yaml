@@ -65,7 +65,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hello. I'm Jack."
-    Content: Welcome to my website. Here you will find links to my projects and information for tutoring.
+    Content: Welcome to my website. Here you will find links to my projects and other information.
 
   socialIcons:
     - name: instagram
@@ -88,6 +88,10 @@ menu:
       name: Tutoring
       url: /tutoring/
       weight: 20
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 30
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true

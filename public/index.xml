@@ -21,6 +21,44 @@
       <description>Repository of my condensed notes organized by topic. Work-in-progress.</description>
     </item>
     <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>Contact page to schedule tutoring and/or inquire about availability and prices.</description>
+    </item>
+    <item>
+      <title>Contact Confirmation</title>
+      <link>http://localhost:1313/contact-confirm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact-confirm/</guid>
+      <description>&lt;h2 id=&#34;speak-soon&#34;&gt;Speak soon!&lt;/h2&gt;
+&lt;p&gt;I have received your message and will respond by email as soon as possible.&lt;/p&gt;
+&lt;div class=&#34;button-container&#34; style=&#34;text-align: center; margin: 1em 0;&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/&#34; class=&#34;button&#34; style=&#34;
+        display: inline-block;
+        padding: 0.5em 1.2em;
+        background-color: rgb(239, 239, 239);
+        color: rgb(79, 79, 79);
+        font-size: 0.9rem;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: all 0.2s ease;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: none !important;
+    &#34;&gt;
+        Return Home
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+    .button:hover {
+        background-color: var(--primary-hover);
+        transform: translateY(-2px);
+    }
+&lt;/style&gt;</description>
+    </item>
+    <item>
       <title>CV</title>
       <link>http://localhost:1313/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -293,7 +331,7 @@
     &lt;/div&gt;
 
     
-      &lt;a href=&#34;http://localhost:1313/thesis&#34; class=&#34;timeline-button&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Learn More&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/thesis&#34; class=&#34;timeline-button&#34;&gt;Learn More&lt;/a&gt;
     
   &lt;/div&gt;
 &lt;/div&gt;
@@ -433,7 +471,7 @@
     &lt;/div&gt;
 
     
-      &lt;a href=&#34;http://localhost:1313/tutoring&#34; class=&#34;timeline-button&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Learn More&lt;/a&gt;
+      &lt;a href=&#34;http://localhost:1313/tutoring&#34; class=&#34;timeline-button&#34;&gt;Learn More&lt;/a&gt;
     
   &lt;/div&gt;
 &lt;/div&gt;
@@ -515,6 +553,275 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;certificates&#34;&gt;Certificates&lt;/h3&gt;
+&lt;style&gt;
+  .timeline {
+    position: relative;
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+    border-left: 2px solid #505c6f;  
+    margin-bottom: 2rem;
+  }
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  .timeline-marker {
+    position: absolute;
+    left: -1.91rem;
+    top: 0.3rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: #505c6f;
+    border: 0.5 px solid #2d446a;  
+    border-radius: 50%;
+  }
+  .timeline-content h3 {
+    font-weight: 600;
+    font-size: 1.2rem;  
+    margin: 0 0 0.25rem 0;
+    color: #6a85ab;  
+  }
+  .timeline-content h1 {
+    color: #6b7280;
+    font-size: 1rem;
+    font-style: italic;
+    margin: 0 0 0.25rem 0;
+  }
+  .timeline-content time {
+    display: block;
+    font-size: 0.875rem;  
+    color: #6b7280;  
+    margin-bottom: 0.4rem;
+  }
+   
+  [data-theme=&#34;dark&#34;] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #d0cfcf;  
+  }
+  [data-theme=&#34;light&#34;] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #1b1b1b;  
+  }
+
+  .timeline-content .description {
+    margin: 0.5rem 0;
+  }
+  .timeline-content .description ul,
+  .timeline-content .description ol {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+  }
+  .timeline-content .description li {
+    margin: 0.5rem 0;
+    line-height: 1;
+  }
+  .timeline-content .description p {
+    margin: 0.5rem 0;
+  }
+
+  .timeline-button {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.28rem 0.75rem;
+    background-color: #435874;  
+    color: rgb(213, 213, 213);
+    text-decoration: none !important;
+    border: 1px solid #6b7280;
+    border-radius: 0.3rem;  
+    font-size: 0.875rem;
+    font-weight: 400;
+     
+    box-shadow: none !important;
+    outline: none;
+ 
+  }
+  .timeline-button:hover {
+    background-color: #6b7280;  
+    color: white;
+  }
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline&#34;&gt;
+  
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2024-08-01&#34;&gt;August 2024&lt;/time&gt;
+    &lt;h3&gt;CPR/AED Level C&lt;/h3&gt;
+    &lt;h1&gt;Canadian Red Cross&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;projects&#34;&gt;Projects&lt;/h3&gt;
+&lt;style&gt;
+  .timeline {
+    position: relative;
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+    border-left: 2px solid #505c6f;  
+    margin-bottom: 2rem;
+  }
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+  .timeline-marker {
+    position: absolute;
+    left: -1.91rem;
+    top: 0.3rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: #505c6f;
+    border: 0.5 px solid #2d446a;  
+    border-radius: 50%;
+  }
+  .timeline-content h3 {
+    font-weight: 600;
+    font-size: 1.2rem;  
+    margin: 0 0 0.25rem 0;
+    color: #6a85ab;  
+  }
+  .timeline-content h1 {
+    color: #6b7280;
+    font-size: 1rem;
+    font-style: italic;
+    margin: 0 0 0.25rem 0;
+  }
+  .timeline-content time {
+    display: block;
+    font-size: 0.875rem;  
+    color: #6b7280;  
+    margin-bottom: 0.4rem;
+  }
+   
+  [data-theme=&#34;dark&#34;] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #d0cfcf;  
+  }
+  [data-theme=&#34;light&#34;] .timeline-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #1b1b1b;  
+  }
+
+  .timeline-content .description {
+    margin: 0.5rem 0;
+  }
+  .timeline-content .description ul,
+  .timeline-content .description ol {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+  }
+  .timeline-content .description li {
+    margin: 0.5rem 0;
+    line-height: 1;
+  }
+  .timeline-content .description p {
+    margin: 0.5rem 0;
+  }
+
+  .timeline-button {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.28rem 0.75rem;
+    background-color: #435874;  
+    color: rgb(213, 213, 213);
+    text-decoration: none !important;
+    border: 1px solid #6b7280;
+    border-radius: 0.3rem;  
+    font-size: 0.875rem;
+    font-weight: 400;
+     
+    box-shadow: none !important;
+    outline: none;
+ 
+  }
+  .timeline-button:hover {
+    background-color: #6b7280;  
+    color: white;
+  }
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline&#34;&gt;
+  
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2020-01-01&#34;&gt;January 2020 - Present&lt;/time&gt;
+    &lt;h3&gt;Personal Investing&lt;/h3&gt;
+    &lt;h1&gt;Self&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;ul&gt;
+&lt;li&gt;Broad-based total-market index investment&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2019-12-01&#34;&gt;December 2019 - Present&lt;/time&gt;
+    &lt;h3&gt;Programming and Web Development&lt;/h3&gt;
+    &lt;h1&gt;Self&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;ul&gt;
+&lt;li&gt;Python, R, HTML, CSS&lt;/li&gt;
+&lt;li&gt;Deploying sites with Quartz, Hugo, Github&lt;/li&gt;
+&lt;li&gt;API integration, web scraping, automation&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+
+    
+      &lt;a href=&#34;https://github.com/awidne&#34; class=&#34;timeline-button&#34;&gt;Learn More&lt;/a&gt;
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2020-12-01&#34;&gt;December 2020 - September 2021&lt;/time&gt;
+    &lt;h3&gt;3D Printing: Ear-savers for COVID-19&lt;/h3&gt;
+    &lt;h1&gt;Vancouver, BC&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;ul&gt;
+&lt;li&gt;Printed and distributed ear-savers for front-line workers&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+
+    
+  &lt;/div&gt;
+&lt;/div&gt;
 
 
 &lt;/div&gt;
@@ -681,120 +988,6 @@
     &lt;time datetime=&#34;2018-01-01&#34;&gt;January 2018 - March 2020&lt;/time&gt;
     &lt;h3&gt;Hospital Volunteer&lt;/h3&gt;
     &lt;h1&gt;Vancouver Coastal Health&lt;/h1&gt;
-    &lt;div class=&#34;description&#34;&gt;
-      
-    &lt;/div&gt;
-
-    
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-
-&lt;/div&gt;
-
-&lt;h3 id=&#34;certificates&#34;&gt;Certificates&lt;/h3&gt;
-&lt;style&gt;
-  .timeline {
-    position: relative;
-    margin-left: 2rem;
-    padding-left: 1.5rem;
-    border-left: 2px solid #505c6f;  
-    margin-bottom: 2rem;
-  }
-  .timeline-item {
-    position: relative;
-    margin-bottom: 2rem;
-  }
-  .timeline-item:last-child {
-    margin-bottom: 0;
-  }
-  .timeline-marker {
-    position: absolute;
-    left: -1.91rem;
-    top: 0.3rem;
-    width: 0.7rem;
-    height: 0.7rem;
-    background-color: #505c6f;
-    border: 0.5 px solid #2d446a;  
-    border-radius: 50%;
-  }
-  .timeline-content h3 {
-    font-weight: 600;
-    font-size: 1.2rem;  
-    margin: 0 0 0.25rem 0;
-    color: #6a85ab;  
-  }
-  .timeline-content h1 {
-    color: #6b7280;
-    font-size: 1rem;
-    font-style: italic;
-    margin: 0 0 0.25rem 0;
-  }
-  .timeline-content time {
-    display: block;
-    font-size: 0.875rem;  
-    color: #6b7280;  
-    margin-bottom: 0.4rem;
-  }
-   
-  [data-theme=&#34;dark&#34;] .timeline-content p {
-    margin: 0;
-    font-size: 0.9rem;
-    color: #d0cfcf;  
-  }
-  [data-theme=&#34;light&#34;] .timeline-content p {
-    margin: 0;
-    font-size: 0.9rem;
-    color: #1b1b1b;  
-  }
-
-  .timeline-content .description {
-    margin: 0.5rem 0;
-  }
-  .timeline-content .description ul,
-  .timeline-content .description ol {
-    margin: 0.5rem 0;
-    padding-left: 1.5rem;
-  }
-  .timeline-content .description li {
-    margin: 0.5rem 0;
-    line-height: 1;
-  }
-  .timeline-content .description p {
-    margin: 0.5rem 0;
-  }
-
-  .timeline-button {
-    display: inline-block;
-    margin-top: 0.5rem;
-    padding: 0.28rem 0.75rem;
-    background-color: #435874;  
-    color: rgb(213, 213, 213);
-    text-decoration: none !important;
-    border: 1px solid #6b7280;
-    border-radius: 0.3rem;  
-    font-size: 0.875rem;
-    font-weight: 400;
-     
-    box-shadow: none !important;
-    outline: none;
- 
-  }
-  .timeline-button:hover {
-    background-color: #6b7280;  
-    color: white;
-  }
-&lt;/style&gt;
-
-&lt;div class=&#34;timeline&#34;&gt;
-  
-  &lt;div class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-  &lt;div class=&#34;timeline-content&#34;&gt;
-    &lt;time datetime=&#34;2024-08-01&#34;&gt;August 2024&lt;/time&gt;
-    &lt;h3&gt;CPR/AED Level C&lt;/h3&gt;
-    &lt;h1&gt;Canadian Red Cross&lt;/h1&gt;
     &lt;div class=&#34;description&#34;&gt;
       
     &lt;/div&gt;
@@ -979,156 +1172,14 @@
 &lt;/div&gt;
 
 
-
-&lt;/div&gt;
-
-&lt;h3 id=&#34;projects&#34;&gt;Projects&lt;/h3&gt;
-&lt;style&gt;
-  .timeline {
-    position: relative;
-    margin-left: 2rem;
-    padding-left: 1.5rem;
-    border-left: 2px solid #505c6f;  
-    margin-bottom: 2rem;
-  }
-  .timeline-item {
-    position: relative;
-    margin-bottom: 2rem;
-  }
-  .timeline-item:last-child {
-    margin-bottom: 0;
-  }
-  .timeline-marker {
-    position: absolute;
-    left: -1.91rem;
-    top: 0.3rem;
-    width: 0.7rem;
-    height: 0.7rem;
-    background-color: #505c6f;
-    border: 0.5 px solid #2d446a;  
-    border-radius: 50%;
-  }
-  .timeline-content h3 {
-    font-weight: 600;
-    font-size: 1.2rem;  
-    margin: 0 0 0.25rem 0;
-    color: #6a85ab;  
-  }
-  .timeline-content h1 {
-    color: #6b7280;
-    font-size: 1rem;
-    font-style: italic;
-    margin: 0 0 0.25rem 0;
-  }
-  .timeline-content time {
-    display: block;
-    font-size: 0.875rem;  
-    color: #6b7280;  
-    margin-bottom: 0.4rem;
-  }
-   
-  [data-theme=&#34;dark&#34;] .timeline-content p {
-    margin: 0;
-    font-size: 0.9rem;
-    color: #d0cfcf;  
-  }
-  [data-theme=&#34;light&#34;] .timeline-content p {
-    margin: 0;
-    font-size: 0.9rem;
-    color: #1b1b1b;  
-  }
-
-  .timeline-content .description {
-    margin: 0.5rem 0;
-  }
-  .timeline-content .description ul,
-  .timeline-content .description ol {
-    margin: 0.5rem 0;
-    padding-left: 1.5rem;
-  }
-  .timeline-content .description li {
-    margin: 0.5rem 0;
-    line-height: 1;
-  }
-  .timeline-content .description p {
-    margin: 0.5rem 0;
-  }
-
-  .timeline-button {
-    display: inline-block;
-    margin-top: 0.5rem;
-    padding: 0.28rem 0.75rem;
-    background-color: #435874;  
-    color: rgb(213, 213, 213);
-    text-decoration: none !important;
-    border: 1px solid #6b7280;
-    border-radius: 0.3rem;  
-    font-size: 0.875rem;
-    font-weight: 400;
-     
-    box-shadow: none !important;
-    outline: none;
- 
-  }
-  .timeline-button:hover {
-    background-color: #6b7280;  
-    color: white;
-  }
-&lt;/style&gt;
-
-&lt;div class=&#34;timeline&#34;&gt;
-  
   &lt;div class=&#34;timeline-item&#34;&gt;
   &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
   &lt;div class=&#34;timeline-content&#34;&gt;
-    &lt;time datetime=&#34;2020-01-01&#34;&gt;January 2020 - Present&lt;/time&gt;
-    &lt;h3&gt;Personal Investing&lt;/h3&gt;
-    &lt;h1&gt;Self&lt;/h1&gt;
+    &lt;time datetime=&#34;2018-09-01&#34;&gt;September 2018&lt;/time&gt;
+    &lt;h3&gt;BC Achievement Scholarship&lt;/h3&gt;
+    &lt;h1&gt;Government of British Columbia&lt;/h1&gt;
     &lt;div class=&#34;description&#34;&gt;
-      &lt;ul&gt;
-&lt;li&gt;Broad-based total-market index investment&lt;/li&gt;
-&lt;/ul&gt;
-
-    &lt;/div&gt;
-
-    
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-  &lt;div class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-  &lt;div class=&#34;timeline-content&#34;&gt;
-    &lt;time datetime=&#34;2019-12-01&#34;&gt;December 2019 - Present&lt;/time&gt;
-    &lt;h3&gt;Programming and Web Development&lt;/h3&gt;
-    &lt;h1&gt;Self&lt;/h1&gt;
-    &lt;div class=&#34;description&#34;&gt;
-      &lt;ul&gt;
-&lt;li&gt;Python, R, HTML, CSS&lt;/li&gt;
-&lt;li&gt;Deploying sites with Quartz, Hugo, Github&lt;/li&gt;
-&lt;li&gt;API integration, web scraping, automation&lt;/li&gt;
-&lt;/ul&gt;
-
-    &lt;/div&gt;
-
-    
-      &lt;a href=&#34;https://github.com/awidne&#34; class=&#34;timeline-button&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Learn More&lt;/a&gt;
-    
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-  &lt;div class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-  &lt;div class=&#34;timeline-content&#34;&gt;
-    &lt;time datetime=&#34;2020-12-01&#34;&gt;December 2020 - September 2021&lt;/time&gt;
-    &lt;h3&gt;3D Printing: Ear-savers for COVID-19&lt;/h3&gt;
-    &lt;h1&gt;Vancouver, BC&lt;/h1&gt;
-    &lt;div class=&#34;description&#34;&gt;
-      &lt;ul&gt;
-&lt;li&gt;Printed and distributed ear-savers for front-line workers&lt;/li&gt;
-&lt;/ul&gt;
-
+      
     &lt;/div&gt;
 
     

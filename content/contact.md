@@ -5,11 +5,6 @@ aliases: ["/contact"]
 hideTitle: true
 ---
 
-## Not Available
+## Questions?
 
-This page is currently being built. Please come back later.
-
-Name
-Email
-Subject
-Message
+{{< contactform >}}
