@@ -1223,7 +1223,30 @@
         &lt;source src=&#34;http://localhost:1313/videos/hijack.mp4&#34; type=&#34;video/mp4&#34;&gt;
         Your browser does not support the video tag.
     &lt;/video&gt;
-&lt;/div&gt;</description>
+&lt;/div&gt;
+&lt;div class=&#34;button-container&#34; style=&#34;text-align: left; margin: 1em 0;&#34;&gt;
+    &lt;a href=&#34;http://localhost:1313/secret-page&#34; class=&#34;button&#34; style=&#34;
+        display: inline-block;
+        padding: 0.5em 1.2em;
+        background-color: rgb(239, 239, 239);
+        color: rgb(79, 79, 79);
+        font-size: 0.9rem;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: all 0.2s ease;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: none !important;
+    &#34;&gt;
+        Shh (secret)
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+    .button:hover {
+        background-color: var(--primary-hover);
+        transform: translateY(-2px);
+    }
+&lt;/style&gt;</description>
     </item>
     <item>
       <title>Premed Tutoring</title>
@@ -1251,8 +1274,7 @@
       <link>http://localhost:1313/thesis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/thesis/</guid>
-      <description>&lt;h2 id=&#34;thesis-page&#34;&gt;Thesis Page&lt;/h2&gt;
-&lt;p&gt;This page is currently being built. Please come back later.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This page is currently being built. Please come back later.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tutoring Services</title>
