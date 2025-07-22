@@ -1,5 +1,5 @@
 ---
-title: "Tutoring Services"
+title: "Tutoring"
 summary: Information and prices for tutoring services available
 aliases: ["/tutoring"]
 hideTitle: true
@@ -20,7 +20,7 @@ Available online on Zoom, Teams, or a plaform of your choice. Multi-hour bundles
     "description": "Homework help and get ahead",
     "features": [
       "Math and pre-calculus",
-      "Science (chem, bio, phys)",
+      "Sciences",
       "English",
       "Programming"
     ],

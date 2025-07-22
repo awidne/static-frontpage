@@ -11,14 +11,21 @@
     </image>
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Med Notes</title>
       <link>http://localhost:1313/links/notes/</link>
-      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/links/notes/</guid>
       <description>Repository of my condensed notes organized by topic. Work-in-progress.</description>
+    </item>
+    <item>
+      <title>Photo Collection</title>
+      <link>http://localhost:1313/links/photos/</link>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/photos/</guid>
+      <description>Gallery of photos taken for fun.</description>
     </item>
     <item>
       <title>Contact</title>
@@ -770,13 +777,10 @@
   &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
   &lt;div class=&#34;timeline-content&#34;&gt;
     &lt;time datetime=&#34;2020-01-01&#34;&gt;January 2020 - Present&lt;/time&gt;
-    &lt;h3&gt;Personal Investing&lt;/h3&gt;
+    &lt;h3&gt;Investing&lt;/h3&gt;
     &lt;h1&gt;Self&lt;/h1&gt;
     &lt;div class=&#34;description&#34;&gt;
-      &lt;ul&gt;
-&lt;li&gt;Broad-based total-market index investment&lt;/li&gt;
-&lt;/ul&gt;
-
+      
     &lt;/div&gt;
 
     
@@ -794,7 +798,7 @@
       &lt;ul&gt;
 &lt;li&gt;Python, R, HTML, CSS&lt;/li&gt;
 &lt;li&gt;Deploying sites with Quartz, Hugo, Github&lt;/li&gt;
-&lt;li&gt;API integration, web scraping, automation&lt;/li&gt;
+&lt;li&gt;API integration, web scraping, automation, data visualization&lt;/li&gt;
 &lt;/ul&gt;
 
     &lt;/div&gt;
@@ -804,6 +808,29 @@
     
   &lt;/div&gt;
 &lt;/div&gt;
+
+
+  &lt;div class=&#34;timeline-item&#34;&gt;
+  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
+  &lt;div class=&#34;timeline-content&#34;&gt;
+    &lt;time datetime=&#34;2018-06-01&#34;&gt;June 2018 - Present&lt;/time&gt;
+    &lt;h3&gt;Photography&lt;/h3&gt;
+    &lt;h1&gt;Self&lt;/h1&gt;
+    &lt;div class=&#34;description&#34;&gt;
+      &lt;ul&gt;
+&lt;li&gt;Python, R, HTML, CSS&lt;/li&gt;
+&lt;li&gt;Deploying sites with Quartz, Hugo, Github&lt;/li&gt;
+&lt;li&gt;API integration, web scraping, automation, data visualization&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+
+    
+      &lt;a href=&#34;https://photos.jackxue.com&#34; class=&#34;timeline-button&#34;&gt;Learn More&lt;/a&gt;
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+
 
 
   &lt;div class=&#34;timeline-item&#34;&gt;
@@ -1277,7 +1304,7 @@
       <description>&lt;p&gt;This page is currently being built. Please come back later.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Tutoring Services</title>
+      <title>Tutoring</title>
       <link>http://localhost:1313/tutoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutoring/</guid>

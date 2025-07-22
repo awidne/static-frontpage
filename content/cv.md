@@ -146,10 +146,9 @@ Medical student at Queen's University School of Medicine with a background in ch
   {{< timelineitem 
       date="January 2020 - Present" 
       datetime="2020-01-01" 
-      title="Personal Investing"
+      title="Investing"
       location="Self"
   >}}
-  - Broad-based total-market index investment
   {{< /timelineitem >}}
 
   {{< timelineitem 
@@ -161,8 +160,21 @@ Medical student at Queen's University School of Medicine with a background in ch
   >}}
   - Python, R, HTML, CSS
   - Deploying sites with Quartz, Hugo, Github
-  - API integration, web scraping, automation
+  - API integration, web scraping, automation, data visualization
   {{< /timelineitem >}}
+
+  {{< timelineitem 
+      date="June 2018 - Present" 
+      datetime="2018-06-01" 
+      title="Photography" 
+      location="Self"
+      url="https://photos.jackxue.com"
+  >}}
+  - Python, R, HTML, CSS
+  - Deploying sites with Quartz, Hugo, Github
+  - API integration, web scraping, automation, data visualization
+  {{< /timelineitem >}}
+
 
   {{< timelineitem 
       date="December 2020 - September 2021" 

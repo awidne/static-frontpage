@@ -1,7 +1,7 @@
 ---
 title: "Med Notes"
 summary: Repository of my condensed notes organized by topic. Work-in-progress.
-date: 2025-06-26
+date: 2025-07-21
 weight: 1
 author: ["Jack Xue"]
 aliases: ["/notes"]

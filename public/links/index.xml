@@ -11,14 +11,21 @@
     </image>
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/links/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Med Notes</title>
       <link>http://localhost:1313/links/notes/</link>
-      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/links/notes/</guid>
       <description>Repository of my condensed notes organized by topic. Work-in-progress.</description>
+    </item>
+    <item>
+      <title>Photo Collection</title>
+      <link>http://localhost:1313/links/photos/</link>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/links/photos/</guid>
+      <description>Gallery of photos taken for fun.</description>
     </item>
   </channel>
 </rss>
