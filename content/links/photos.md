@@ -1,6 +1,6 @@
 ---
 title: "Photo Collection"
-summary: Gallery of photos taken for fun.
+summary: Pretending to take nice photos.
 date: 2025-07-22
 weight: 2
 author: ["Jack Xue"]

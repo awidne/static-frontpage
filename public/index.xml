@@ -338,8 +338,6 @@
     &lt;/div&gt;
 
     
-      &lt;a href=&#34;http://localhost:1313/thesis&#34; class=&#34;timeline-button&#34;&gt;Learn More&lt;/a&gt;
-    
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1295,13 +1293,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/secret-page/</guid>
       <description>Load a secret</description>
-    </item>
-    <item>
-      <title>Thesis</title>
-      <link>http://localhost:1313/thesis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/thesis/</guid>
-      <description>&lt;p&gt;This page is currently being built. Please come back later.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tutoring</title>

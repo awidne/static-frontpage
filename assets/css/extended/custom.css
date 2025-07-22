@@ -39,3 +39,12 @@ iframe {
 .post-content ul {
     margin-bottom: 0.7rem !important;
 }
+
+/* Home post list hover effect */
+.post-entry {
+    transition: transform 0.2s ease;
+}
+
+.post-entry:hover {
+    transform: translateY(-3px); /* Adjust the value (e.g., 5px) for desired movement */
+}

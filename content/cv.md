@@ -51,7 +51,6 @@ Medical student at Queen's University School of Medicine with a background in ch
       datetime="2021-08-01" 
       title="Undergraduate Thesis"
       location="Algar Research Group, University of British Columbia"
-      url="/thesis"
   >}}
   - Principal investigator: Dr. Russ Algar
   - Characterization And Application Of Energy Transfer In Silicon Nanocrystals For Bioanalysis

@@ -1,6 +1,6 @@
 ---
 title: "Med Notes"
-summary: Repository of my condensed notes organized by topic. Work-in-progress.
+summary: Repository of my condensed notes organized by topic.
 date: 2025-07-21
 weight: 1
 author: ["Jack Xue"]
