@@ -21,8 +21,7 @@ Available online on Zoom, Teams, or a plaform of your choice. Multi-hour bundles
     "features": [
       "Math and pre-calculus",
       "Sciences",
-      "English",
-      "Programming"
+      "English"
     ],
     "button_text": "Subject List",
     "button_link": "/k12-tutoring"
@@ -35,8 +34,7 @@ Available online on Zoom, Teams, or a plaform of your choice. Multi-hour bundles
     "features": [
       "100-200 level courses",
       "Chemistry",
-      "Biology",
-      "Biochemistry"
+      "Biology"
     ],
     "button_text": "Course List",
     "button_link": "/university-tutoring"
@@ -49,8 +47,7 @@ Available online on Zoom, Teams, or a plaform of your choice. Multi-hour bundles
     "features": [
       "MCAT",
       "Casper",
-      "Application review",
-      "Interview prep"
+      "More"
     ],
     "button_text": "Learn More",
     "button_link": "/premed-tutoring"

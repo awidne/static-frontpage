@@ -2,6 +2,9 @@
 title: "Photo Collection"
 summary: Pretending to take nice photos.
 date: 2025-07-22
+update_frequency: 7
+repo: "awidne/static-photos"
+auto_update_date: true
 weight: 2
 author: ["Jack Xue"]
 aliases: ["/photos"]

@@ -2,6 +2,9 @@
 title: "Med Notes"
 summary: Repository of my condensed notes organized by topic.
 date: 2025-07-21
+update_frequency: 7
+repo: "awidne/static-obsidian"
+auto_update_date: true
 weight: 1
 author: ["Jack Xue"]
 aliases: ["/notes"]

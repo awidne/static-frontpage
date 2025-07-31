@@ -7,7 +7,7 @@ hideTitle: true
 
 ## Cirriculum Vitae | Jack Xue
 
-Medical student at Queen's University School of Medicine with a background in chemistry and biology. Skills and experiences in teaching, non-profit management, research, and more.
+Medical student at Queen's University School of Medicine with a background in chemistry and biology.
 
 ### Education
 
@@ -143,19 +143,10 @@ Medical student at Queen's University School of Medicine with a background in ch
 
 {{< timeline >}}
   {{< timelineitem 
-      date="January 2020 - Present" 
-      datetime="2020-01-01" 
-      title="Investing"
-      location="Self"
-  >}}
-  {{< /timelineitem >}}
-
-  {{< timelineitem 
       date="December 2019 - Present" 
       datetime="2019-12-01" 
       title="Programming and Web Development" 
       location="Self"
-      url="https://github.com/awidne"
   >}}
   - Python, R, HTML, CSS
   - Deploying sites with Quartz, Hugo, Github
@@ -169,9 +160,7 @@ Medical student at Queen's University School of Medicine with a background in ch
       location="Self"
       url="https://photos.jackxue.com"
   >}}
-  - Python, R, HTML, CSS
-  - Deploying sites with Quartz, Hugo, Github
-  - API integration, web scraping, automation, data visualization
+  - Canon EOS Rebel T6 &rarr; Fujifilm X-T5
   {{< /timelineitem >}}
 
 
@@ -181,7 +170,7 @@ Medical student at Queen's University School of Medicine with a background in ch
       title="3D Printing: Ear-savers for COVID-19"
       location="Vancouver, BC"
   >}}
-  - Printed and distributed ear-savers for front-line workers
+  - Printed ear-savers for front-line workers
   {{< /timelineitem >}}
 {{< /timeline >}}
 
@@ -215,7 +204,7 @@ Medical student at Queen's University School of Medicine with a background in ch
   {{< timelineitem 
       date="February 2018 - May 2022" 
       datetime="2018-02-01" 
-      title="PC Building for Low-SES Students" 
+      title="PC Building for Students" 
       location="Self"
   >}}
   {{< /timelineitem >}}

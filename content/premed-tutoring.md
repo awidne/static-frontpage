@@ -41,16 +41,17 @@ Available services include:
 {{< /hiddenimage >}}
 
 ## Application Review
-Every medical school has different requirements and application processes. Simplify the application cycle
+Every medical school has different requirements and application processes. Simplify the application cycle.
 
 Available services include:
 - Application planning (incl. deadlines, requirements, and extra-cirriculars)
-- Autobiographical sketches and extracirricular blurbs editing
-- Supplemental essays editing
+- Autobiographical sketches and extracirriculars planning
 
 ## Interview Preparation
-All Canadian medical schools have some form of interview. The most common are the multiple mini interview (MMI) and panel interview.
+All Canadian medical schools have some form of applicant interviewing. The most common are the multiple mini interview (MMI) and panel interview.
 
 Available services include:
 - Preparing for interviews
 - Practice MMI
+
+Disclaimer: due to university policy, confidential information regarding the admissions process are not disclosed in interview preparation sessions.
