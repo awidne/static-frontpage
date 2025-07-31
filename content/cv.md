@@ -29,7 +29,6 @@ Medical student at Queen's University School of Medicine with a background in ch
       location="University of British Columbia"
   >}}
   - Graduated with Distinction
-  - Dean's Honour List, Science Scholar
   {{< /timelineitem >}}
 
 {{< /timeline >}}
@@ -146,7 +145,6 @@ Medical student at Queen's University School of Medicine with a background in ch
       date="December 2019 - Present" 
       datetime="2019-12-01" 
       title="Programming and Web Development" 
-      location="Self"
   >}}
   - Python, R, HTML, CSS
   - Deploying sites with Quartz, Hugo, Github
@@ -157,7 +155,6 @@ Medical student at Queen's University School of Medicine with a background in ch
       date="June 2018 - Present" 
       datetime="2018-06-01" 
       title="Photography" 
-      location="Self"
       url="https://photos.jackxue.com"
   >}}
   - Canon EOS Rebel T6 &rarr; Fujifilm X-T5
@@ -181,7 +178,6 @@ Medical student at Queen's University School of Medicine with a background in ch
       date="August 2020 - Present" 
       datetime="2020-08-01" 
       title="Mentoring"
-      location="Self"
   >}}
   {{< /timelineitem >}}
 
@@ -197,7 +193,6 @@ Medical student at Queen's University School of Medicine with a background in ch
       date="February 2021 - April 2023" 
       datetime="2021-02-01" 
       title="Tax Preparation and Seminars" 
-      location="Self"
   >}}
   {{< /timelineitem >}}
 
@@ -205,7 +200,6 @@ Medical student at Queen's University School of Medicine with a background in ch
       date="February 2018 - May 2022" 
       datetime="2018-02-01" 
       title="PC Building for Students" 
-      location="Self"
   >}}
   {{< /timelineitem >}}
 

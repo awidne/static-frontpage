@@ -18,14 +18,14 @@
       <link>http://localhost:1313/links/notes/</link>
       <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/links/notes/</guid>
-      <description>Repository of my condensed notes organized by topic. Work-in-progress.</description>
+      <description>Repository of my condensed notes organized by topic.</description>
     </item>
     <item>
       <title>Photo Collection</title>
       <link>http://localhost:1313/links/photos/</link>
       <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/links/photos/</guid>
-      <description>Gallery of photos taken for fun.</description>
+      <description>Pretending to take nice photos.</description>
     </item>
     <item>
       <title>Contact</title>
@@ -71,7 +71,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/cv/</guid>
       <description>&lt;h2 id=&#34;cirriculum-vitae--jack-xue&#34;&gt;Cirriculum Vitae | Jack Xue&lt;/h2&gt;
-&lt;p&gt;Medical student at Queen&amp;rsquo;s University School of Medicine with a background in chemistry and biology. Skills and experiences in teaching, non-profit management, research, and more.&lt;/p&gt;
+&lt;p&gt;Medical student at Queen&amp;rsquo;s University School of Medicine with a background in chemistry and biology.&lt;/p&gt;
 &lt;h3 id=&#34;education&#34;&gt;Education&lt;/h3&gt;
 &lt;style&gt;
   .timeline {
@@ -196,7 +196,6 @@
     &lt;div class=&#34;description&#34;&gt;
       &lt;ul&gt;
 &lt;li&gt;Graduated with Distinction&lt;/li&gt;
-&lt;li&gt;Dean&amp;rsquo;s Honour List, Science Scholar&lt;/li&gt;
 &lt;/ul&gt;
 
     &lt;/div&gt;
@@ -774,24 +773,9 @@
   &lt;div class=&#34;timeline-item&#34;&gt;
   &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
   &lt;div class=&#34;timeline-content&#34;&gt;
-    &lt;time datetime=&#34;2020-01-01&#34;&gt;January 2020 - Present&lt;/time&gt;
-    &lt;h3&gt;Investing&lt;/h3&gt;
-    &lt;h1&gt;Self&lt;/h1&gt;
-    &lt;div class=&#34;description&#34;&gt;
-      
-    &lt;/div&gt;
-
-    
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-  &lt;div class=&#34;timeline-item&#34;&gt;
-  &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
-  &lt;div class=&#34;timeline-content&#34;&gt;
     &lt;time datetime=&#34;2019-12-01&#34;&gt;December 2019 - Present&lt;/time&gt;
     &lt;h3&gt;Programming and Web Development&lt;/h3&gt;
-    &lt;h1&gt;Self&lt;/h1&gt;
+    &lt;h1&gt;&lt;/h1&gt;
     &lt;div class=&#34;description&#34;&gt;
       &lt;ul&gt;
 &lt;li&gt;Python, R, HTML, CSS&lt;/li&gt;
@@ -802,8 +786,6 @@
     &lt;/div&gt;
 
     
-      &lt;a href=&#34;https://github.com/awidne&#34; class=&#34;timeline-button&#34;&gt;Learn More&lt;/a&gt;
-    
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -813,12 +795,10 @@
   &lt;div class=&#34;timeline-content&#34;&gt;
     &lt;time datetime=&#34;2018-06-01&#34;&gt;June 2018 - Present&lt;/time&gt;
     &lt;h3&gt;Photography&lt;/h3&gt;
-    &lt;h1&gt;Self&lt;/h1&gt;
+    &lt;h1&gt;&lt;/h1&gt;
     &lt;div class=&#34;description&#34;&gt;
       &lt;ul&gt;
-&lt;li&gt;Python, R, HTML, CSS&lt;/li&gt;
-&lt;li&gt;Deploying sites with Quartz, Hugo, Github&lt;/li&gt;
-&lt;li&gt;API integration, web scraping, automation, data visualization&lt;/li&gt;
+&lt;li&gt;Canon EOS Rebel T6 → Fujifilm X-T5&lt;/li&gt;
 &lt;/ul&gt;
 
     &lt;/div&gt;
@@ -839,7 +819,7 @@
     &lt;h1&gt;Vancouver, BC&lt;/h1&gt;
     &lt;div class=&#34;description&#34;&gt;
       &lt;ul&gt;
-&lt;li&gt;Printed and distributed ear-savers for front-line workers&lt;/li&gt;
+&lt;li&gt;Printed ear-savers for front-line workers&lt;/li&gt;
 &lt;/ul&gt;
 
     &lt;/div&gt;
@@ -952,7 +932,7 @@
   &lt;div class=&#34;timeline-content&#34;&gt;
     &lt;time datetime=&#34;2020-08-01&#34;&gt;August 2020 - Present&lt;/time&gt;
     &lt;h3&gt;Mentoring&lt;/h3&gt;
-    &lt;h1&gt;Self&lt;/h1&gt;
+    &lt;h1&gt;&lt;/h1&gt;
     &lt;div class=&#34;description&#34;&gt;
       
     &lt;/div&gt;
@@ -982,7 +962,7 @@
   &lt;div class=&#34;timeline-content&#34;&gt;
     &lt;time datetime=&#34;2021-02-01&#34;&gt;February 2021 - April 2023&lt;/time&gt;
     &lt;h3&gt;Tax Preparation and Seminars&lt;/h3&gt;
-    &lt;h1&gt;Self&lt;/h1&gt;
+    &lt;h1&gt;&lt;/h1&gt;
     &lt;div class=&#34;description&#34;&gt;
       
     &lt;/div&gt;
@@ -996,8 +976,8 @@
   &lt;span class=&#34;timeline-marker&#34;&gt;&lt;/span&gt;
   &lt;div class=&#34;timeline-content&#34;&gt;
     &lt;time datetime=&#34;2018-02-01&#34;&gt;February 2018 - May 2022&lt;/time&gt;
-    &lt;h3&gt;PC Building for Low-SES Students&lt;/h3&gt;
-    &lt;h1&gt;Self&lt;/h1&gt;
+    &lt;h3&gt;PC Building for Students&lt;/h3&gt;
+    &lt;h1&gt;&lt;/h1&gt;
     &lt;div class=&#34;description&#34;&gt;
       
     &lt;/div&gt;
@@ -1228,7 +1208,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/hidden/</guid>
       <description>&lt;h2 id=&#34;hi&#34;&gt;Hi&lt;/h2&gt;
-&lt;div class=&#34;video-container&#34; style=&#34;
+&lt;p&gt;&lt;div class=&#34;video-container&#34; style=&#34;
     display: flex;
     justify-content: center;
     margin: 1rem 0;
@@ -1249,6 +1229,7 @@
         Your browser does not support the video tag.
     &lt;/video&gt;
 &lt;/div&gt;
+ 
 &lt;div class=&#34;button-container&#34; style=&#34;text-align: left; margin: 1em 0;&#34;&gt;
     &lt;a href=&#34;http://localhost:1313/secret-page&#34; class=&#34;button&#34; style=&#34;
         display: inline-block;
@@ -1271,7 +1252,7 @@
         background-color: var(--primary-hover);
         transform: translateY(-2px);
     }
-&lt;/style&gt;</description>
+&lt;/style&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Premed Tutoring</title>

@@ -18,14 +18,14 @@
       <link>http://localhost:1313/links/notes/</link>
       <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/links/notes/</guid>
-      <description>Repository of my condensed notes organized by topic. Work-in-progress.</description>
+      <description>Repository of my condensed notes organized by topic.</description>
     </item>
     <item>
       <title>Photo Collection</title>
       <link>http://localhost:1313/links/photos/</link>
       <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/links/photos/</guid>
-      <description>Gallery of photos taken for fun.</description>
+      <description>Pretending to take nice photos.</description>
     </item>
   </channel>
 </rss>
