@@ -5,20 +5,53 @@
 
 <style>
 .clock-container {
+    width: 100%;
     text-align: center;
-    padding: 0rem;
-    margin: -0.8rem 0;
-    display: inline-block;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 80%;
 }
 
 .clock-time {
     font-size: 6rem;
     font-weight: bold;
+    line-height: 1;
+    white-space: nowrap;
 }
 
 .clock-date {
     font-size: 1.5rem;
     color: #666;
+    line-height: 1.5;
+    white-space: nowrap;
+    margin-top: 0.5rem;
+}
+
+/* Responsive scaling */
+@media screen and (max-width: 1600px) {
+    .clock-time { font-size: 5.5vw; }
+    .clock-date { font-size: 1.4vw; }
+}
+
+@media screen and (max-width: 1200px) {
+    .clock-time { font-size: 5vw; }
+    .clock-date { font-size: 1.3vw; }
+}
+
+@media screen and (max-width: 900px) {
+    .clock-time { font-size: 4.5vw; }
+    .clock-date { font-size: 1.2vw; }
+}
+
+@media screen and (max-width: 600px) {
+    .clock-time { font-size: 4vw; }
+    .clock-date { font-size: 1.1vw; }
+    .clock-container { max-width: 90%; }
+}
+
+@media screen and (max-width: 400px) {
+    .clock-time { font-size: 3.5vw; }
+    .clock-date { font-size: 1vw; }
 }
 </style>
 
