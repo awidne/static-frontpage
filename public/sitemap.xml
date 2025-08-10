@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/links/notes/</loc>
+    <loc>http://192.168.1.149:1313/links/notes/</loc>
     <lastmod>2025-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/links/photos/</loc>
+    <loc>http://192.168.1.149:1313/links/photos/</loc>
     <lastmod>2025-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://192.168.1.149:1313/</loc>
     <lastmod>2025-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/links/</loc>
+    <loc>http://192.168.1.149:1313/links/</loc>
     <lastmod>2025-07-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://192.168.1.149:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://192.168.1.149:1313/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact-confirm/</loc>
+    <loc>http://192.168.1.149:1313/contact-confirm/</loc>
   </url><url>
-    <loc>http://localhost:1313/cv/</loc>
+    <loc>http://192.168.1.149:1313/cv/</loc>
   </url><url>
-    <loc>http://localhost:1313/k12-tutoring/</loc>
+    <loc>http://192.168.1.149:1313/k12-tutoring/</loc>
   </url><url>
-    <loc>http://localhost:1313/hidden/</loc>
+    <loc>http://192.168.1.149:1313/hidden/</loc>
   </url><url>
-    <loc>http://localhost:1313/premed-tutoring/</loc>
+    <loc>http://192.168.1.149:1313/premed-tutoring/</loc>
   </url><url>
-    <loc>http://localhost:1313/secret-page-2/</loc>
+    <loc>http://192.168.1.149:1313/secret-page-2/</loc>
   </url><url>
-    <loc>http://localhost:1313/secret-page/</loc>
+    <loc>http://192.168.1.149:1313/secret-page/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://192.168.1.149:1313/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/tutoring/</loc>
+    <loc>http://192.168.1.149:1313/tutoring/</loc>
   </url><url>
-    <loc>http://localhost:1313/university-tutoring/</loc>
+    <loc>http://192.168.1.149:1313/university-tutoring/</loc>
   </url><url>
-    <loc>http://localhost:1313/clock/</loc>
+    <loc>http://192.168.1.149:1313/clock/</loc>
   </url>
 </urlset>

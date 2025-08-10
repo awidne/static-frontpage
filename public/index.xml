@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Jack Xue</title>
-    <link>http://localhost:1313/</link>
+    <link>http://192.168.1.149:1313/</link>
     <description>Recent content on Jack Xue</description>
     <image>
       <title>Jack Xue</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://192.168.1.149:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://192.168.1.149:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <lastBuildDate>Tue, 22 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.149:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Med Notes</title>
-      <link>http://localhost:1313/links/notes/</link>
+      <link>http://192.168.1.149:1313/links/notes/</link>
       <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/links/notes/</guid>
+      <guid>http://192.168.1.149:1313/links/notes/</guid>
       <description>Repository of my condensed notes organized by topic.</description>
     </item>
     <item>
       <title>Photo Collection</title>
-      <link>http://localhost:1313/links/photos/</link>
+      <link>http://192.168.1.149:1313/links/photos/</link>
       <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/links/photos/</guid>
+      <guid>http://192.168.1.149:1313/links/photos/</guid>
       <description>Pretending to take nice photos.</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>http://192.168.1.149:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>http://192.168.1.149:1313/contact/</guid>
       <description>Contact page to schedule tutoring and/or inquire about availability and prices.</description>
     </item>
     <item>
       <title>Contact Confirmation</title>
-      <link>http://localhost:1313/contact-confirm/</link>
+      <link>http://192.168.1.149:1313/contact-confirm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact-confirm/</guid>
+      <guid>http://192.168.1.149:1313/contact-confirm/</guid>
       <description>&lt;h2 id=&#34;speak-soon&#34;&gt;Speak soon!&lt;/h2&gt;
 &lt;p&gt;I have received your message and will respond by email as soon as possible.&lt;/p&gt;
 &lt;div class=&#34;button-container&#34; style=&#34;text-align: center; margin: 1em 0;&#34;&gt;
-    &lt;a href=&#34;http://localhost:1313/&#34; class=&#34;button&#34; style=&#34;
+    &lt;a href=&#34;http://192.168.1.149:1313/&#34; class=&#34;button&#34; style=&#34;
         display: inline-block;
         padding: 0.5em 1.2em;
         background-color: rgb(239, 239, 239);
@@ -67,9 +67,9 @@
     </item>
     <item>
       <title>CV</title>
-      <link>http://localhost:1313/cv/</link>
+      <link>http://192.168.1.149:1313/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cv/</guid>
+      <guid>http://192.168.1.149:1313/cv/</guid>
       <description>&lt;h2 id=&#34;cirriculum-vitae--jack-xue&#34;&gt;Cirriculum Vitae | Jack Xue&lt;/h2&gt;
 &lt;p&gt;Medical student at Queen&amp;rsquo;s University School of Medicine with a background in chemistry and biology.&lt;/p&gt;
 &lt;h3 id=&#34;education&#34;&gt;Education&lt;/h3&gt;
@@ -475,7 +475,7 @@
     &lt;/div&gt;
 
     
-      &lt;a href=&#34;http://localhost:1313/tutoring&#34; class=&#34;timeline-button&#34;&gt;Learn More&lt;/a&gt;
+      &lt;a href=&#34;http://192.168.1.149:1313/tutoring&#34; class=&#34;timeline-button&#34;&gt;Learn More&lt;/a&gt;
     
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1197,16 +1197,16 @@
     </item>
     <item>
       <title>Grade K-12 Tutoring</title>
-      <link>http://localhost:1313/k12-tutoring/</link>
+      <link>http://192.168.1.149:1313/k12-tutoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/k12-tutoring/</guid>
+      <guid>http://192.168.1.149:1313/k12-tutoring/</guid>
       <description>Additional information for grade K-12 tutoring</description>
     </item>
     <item>
       <title>Hidden</title>
-      <link>http://localhost:1313/hidden/</link>
+      <link>http://192.168.1.149:1313/hidden/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hidden/</guid>
+      <guid>http://192.168.1.149:1313/hidden/</guid>
       <description>&lt;h2 id=&#34;hi&#34;&gt;Hi&lt;/h2&gt;
 &lt;p&gt;&lt;div class=&#34;video-container&#34; style=&#34;
     display: flex;
@@ -1225,13 +1225,13 @@
         controls
         controlsList=&#34;nodownload&#34;
     &gt;
-        &lt;source src=&#34;http://localhost:1313/videos/hijack.mp4&#34; type=&#34;video/mp4&#34;&gt;
+        &lt;source src=&#34;http://192.168.1.149:1313/videos/hijack.mp4&#34; type=&#34;video/mp4&#34;&gt;
         Your browser does not support the video tag.
     &lt;/video&gt;
 &lt;/div&gt;
  
 &lt;div class=&#34;button-container&#34; style=&#34;text-align: left; margin: 1em 0;&#34;&gt;
-    &lt;a href=&#34;http://localhost:1313/secret-page&#34; class=&#34;button&#34; style=&#34;
+    &lt;a href=&#34;http://192.168.1.149:1313/secret-page&#34; class=&#34;button&#34; style=&#34;
         display: inline-block;
         padding: 0.5em 1.2em;
         background-color: rgb(239, 239, 239);
@@ -1256,44 +1256,44 @@
     </item>
     <item>
       <title>Premed Tutoring</title>
-      <link>http://localhost:1313/premed-tutoring/</link>
+      <link>http://192.168.1.149:1313/premed-tutoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/premed-tutoring/</guid>
+      <guid>http://192.168.1.149:1313/premed-tutoring/</guid>
       <description>Additional information for pre-med tutoring, including MCAT, Casper, applications, and interviews.</description>
     </item>
     <item>
       <title>Secret</title>
-      <link>http://localhost:1313/secret-page-2/</link>
+      <link>http://192.168.1.149:1313/secret-page-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/secret-page-2/</guid>
+      <guid>http://192.168.1.149:1313/secret-page-2/</guid>
       <description>Load a secret</description>
     </item>
     <item>
       <title>Secret</title>
-      <link>http://localhost:1313/secret-page/</link>
+      <link>http://192.168.1.149:1313/secret-page/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/secret-page/</guid>
+      <guid>http://192.168.1.149:1313/secret-page/</guid>
       <description>Load a secret</description>
     </item>
     <item>
       <title>Tutoring</title>
-      <link>http://localhost:1313/tutoring/</link>
+      <link>http://192.168.1.149:1313/tutoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutoring/</guid>
+      <guid>http://192.168.1.149:1313/tutoring/</guid>
       <description>Information and prices for tutoring services available</description>
     </item>
     <item>
       <title>University Tutoring</title>
-      <link>http://localhost:1313/university-tutoring/</link>
+      <link>http://192.168.1.149:1313/university-tutoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/university-tutoring/</guid>
+      <guid>http://192.168.1.149:1313/university-tutoring/</guid>
       <description>Additional information for university level tutoring</description>
     </item>
     <item>
       <title>What Time Is It?</title>
-      <link>http://localhost:1313/clock/</link>
+      <link>http://192.168.1.149:1313/clock/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/clock/</guid>
+      <guid>http://192.168.1.149:1313/clock/</guid>
       <description>Get the time.</description>
     </item>
   </channel>

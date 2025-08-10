@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Links on Jack Xue</title>
-    <link>http://localhost:1313/links/</link>
+    <link>http://192.168.1.149:1313/links/</link>
     <description>Recent content in Links on Jack Xue</description>
     <image>
       <title>Jack Xue</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://192.168.1.149:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://192.168.1.149:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <lastBuildDate>Tue, 22 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/links/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.149:1313/links/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Med Notes</title>
-      <link>http://localhost:1313/links/notes/</link>
+      <link>http://192.168.1.149:1313/links/notes/</link>
       <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/links/notes/</guid>
+      <guid>http://192.168.1.149:1313/links/notes/</guid>
       <description>Repository of my condensed notes organized by topic.</description>
     </item>
     <item>
       <title>Photo Collection</title>
-      <link>http://localhost:1313/links/photos/</link>
+      <link>http://192.168.1.149:1313/links/photos/</link>
       <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/links/photos/</guid>
+      <guid>http://192.168.1.149:1313/links/photos/</guid>
       <description>Pretending to take nice photos.</description>
     </item>
   </channel>
