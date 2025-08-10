@@ -37,5 +37,7 @@
     <loc>http://localhost:1313/tutoring/</loc>
   </url><url>
     <loc>http://localhost:1313/university-tutoring/</loc>
+  </url><url>
+    <loc>http://localhost:1313/clock/</loc>
   </url>
 </urlset>

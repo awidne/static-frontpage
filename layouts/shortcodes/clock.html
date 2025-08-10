@@ -1,0 +1,47 @@
+<div class="clock-container">
+    <div class="clock-time" id="clock-time">00:00:00</div>
+    <div class="clock-date" id="clock-date"></div>
+</div>
+
+<style>
+.clock-container {
+    text-align: center;
+    padding: 0rem;
+    margin: -0.8rem 0;
+    display: inline-block;
+}
+
+.clock-time {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.clock-date {
+    font-size: 1.5rem;
+    color: #666;
+}
+</style>
+
+<script>
+function updateClock() {
+    const now = new Date();
+    
+    // Format time
+    const timeElement = document.getElementById('clock-time');
+    const hours = String(now.getHours()).padStart(2, '0');
+    const minutes = String(now.getMinutes()).padStart(2, '0');
+    const seconds = String(now.getSeconds()).padStart(2, '0');
+    timeElement.textContent = `${hours}:${minutes}:${seconds}`;
+    
+    // Format date
+    const dateElement = document.getElementById('clock-date');
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    dateElement.textContent = now.toLocaleDateString(undefined, options);
+}
+
+// Update time immediately and then every second
+document.addEventListener('DOMContentLoaded', function() {
+    updateClock();
+    setInterval(updateClock, 1000);
+});
+</script>
