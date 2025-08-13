@@ -144,11 +144,9 @@ Medical student at Queen's University School of Medicine with a background in ch
   {{< timelineitem 
       date="December 2019 - Present" 
       datetime="2019-12-01" 
-      title="Programming and Web Development" 
+      title="Programming" 
   >}}
-  - Python, R, HTML, CSS
-  - Deploying sites with Quartz, Hugo, Github
-  - API integration, web scraping, automation, data visualization
+  - Python, R, HTML, CSS, JS
   {{< /timelineitem >}}
 
   {{< timelineitem 
@@ -164,10 +162,11 @@ Medical student at Queen's University School of Medicine with a background in ch
   {{< timelineitem 
       date="December 2020 - September 2021" 
       datetime="2020-12-01" 
-      title="3D Printing: Ear-savers for COVID-19"
+      title="3D Printing"
       location="Vancouver, BC"
   >}}
-  - Printed ear-savers for front-line workers
+  - Ear-savers during COVID-19 pandemic
+  - Various props
   {{< /timelineitem >}}
 {{< /timeline >}}
 

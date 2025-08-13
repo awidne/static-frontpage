@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import re
 import sys
+import os
 from datetime import datetime, timedelta
 import requests
 from pathlib import Path
@@ -15,12 +16,14 @@ def get_last_repo_update(repo):
     response.raise_for_status()
     return response.json()["pushed_at"]
 
-def should_update(current_date, frequency):
+def should_update(current_date, frequency, is_manual_run):
     """Determine if update should occur based on frequency"""
+    if is_manual_run:
+        return True  # Always update for manual runs
     last_update = datetime.strptime(current_date, "%Y-%m-%d")
     return (datetime.now() - last_update).days >= frequency
 
-def update_file_dates(file_path):
+def update_file_dates(file_path, is_manual_run=False):
     """Update date in specified markdown file if needed"""
     content = Path(file_path).read_text()
     
@@ -39,8 +42,8 @@ def update_file_dates(file_path):
     
     current_date = date_match.group(1)
     
-    # Check update frequency
-    if not should_update(current_date, frequency):
+    # Check update frequency (ignored for manual runs)
+    if not should_update(current_date, frequency, is_manual_run):
         return False
     
     # Get new date from GitHub
@@ -59,11 +62,13 @@ def update_file_dates(file_path):
 
 def main():
     changed_files = []
+    # Check if this is a manual run
+    is_manual_run = os.getenv('GITHUB_EVENT_NAME') == 'workflow_dispatch'
     
     # Find all markdown files in content directory
     for md_file in Path("content").rglob("*.md"):
         try:
-            if update_file_dates(md_file):
+            if update_file_dates(md_file, is_manual_run):
                 changed_files.append(str(md_file))
         except Exception as e:
             print(f"Error processing {md_file}: {e}")
