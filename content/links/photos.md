@@ -1,7 +1,7 @@
 ---
 title: "Photo Collection"
 summary: Pretending to take nice photos.
-date: 2025-07-23
+date: 2025-08-14
 update_frequency: 7
 repo: "awidne/static-photos"
 auto_update_date: true
