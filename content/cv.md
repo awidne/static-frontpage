@@ -68,7 +68,6 @@ Medical student at Queen's University School of Medicine with a background in ch
 
 {{< /timeline >}}
 
-
 ### Work Experience
 
 {{< timeline >}}
