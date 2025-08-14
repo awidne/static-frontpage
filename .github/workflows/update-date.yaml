@@ -1,8 +1,8 @@
 name: Update Markdown Dates
 on:
   schedule:
-    - cron: '0 5 * * *' # Runs daily at midnight UTC
-  workflow_dispatch: # Allow manual runs
+    - cron: '0 5 * * *'
+  workflow_dispatch:
 
 jobs:
   update-dates:
@@ -11,8 +11,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0 # Required for proper git diff
-        
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -24,7 +25,7 @@ jobs:
       - name: Run date updater
         run: python scripts/update-date.py
         env:
-          GITHUB_EVENT_NAME: ${{ github.event_name }} # Pass the event type to the script
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
         
       - name: Commit and push changes
         if: success()
@@ -32,7 +33,7 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add content/
-          git diff --quiet --cached || {
+          git diff --cached --quiet || {
             git commit -m "Auto-update content dates from repo activity [skip ci]"
             git push
           }
