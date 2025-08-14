@@ -1,39 +1,61 @@
 name: Update Markdown Dates
 on:
   schedule:
-    - cron: '0 5 * * *'
-  workflow_dispatch:
+    - cron: '0 5 * * *'  # Runs daily at 5:00 UTC
+  workflow_dispatch:      # Manual trigger option
 
 jobs:
-  update-dates:
+  update-and-trigger:
     runs-on: ubuntu-latest
     steps:
+      # Checkout with write permissions
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # Set up Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
           
+      # Install dependencies
       - name: Install dependencies
         run: pip install requests
           
+      # Run your date updater script
       - name: Run date updater
+        id: updater
         run: python scripts/update-date.py
-        env:
-          GITHUB_EVENT_NAME: ${{ github.event_name }}
         
+      # Commit changes if any were made
       - name: Commit and push changes
-        if: success()
+        if: steps.updater.outcome == 'success'
+        id: commit
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add content/
-          git diff --cached --quiet || {
+          if ! git diff --cached --quiet; then
             git commit -m "Auto-update content dates from repo activity [skip ci]"
             git push
-          }
+            echo "changes_made=true" >> $GITHUB_OUTPUT
+          else
+            echo "No changes to commit"
+            echo "changes_made=false" >> $GITHUB_OUTPUT
+          fi
+
+      # Trigger your Hugo build workflow only if changes were committed
+      - name: Trigger Hugo build
+        if: steps.commit.outputs.changes_made == 'true'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'hugo.yaml',  # Your existing workflow file
+              ref: context.ref,         # Uses the same branch
+            })
