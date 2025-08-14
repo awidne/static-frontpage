@@ -8,7 +8,8 @@ jobs:
   update-dates:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # CRITICAL for pushing changes
+      contents: write
+      actions: write
       pull-requests: write  # If you want to create PRs later
 
     steps:
@@ -43,7 +44,7 @@ jobs:
             echo "changes_made=false" >> $GITHUB_OUTPUT
           fi
 
-      # 5. COMMIT & PUSH with PROVEN syntax
+      # 5. COMMIT & PUSH
       - name: Commit and push changes
         if: steps.updater.outputs.changes_made == 'true'
         env:
@@ -57,15 +58,25 @@ jobs:
           # PROVEN push syntax that always works
           git push "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git" HEAD:${{ github.ref }}
 
-      # 6. Trigger Hugo (only if changes made)
       - name: Trigger Hugo build
         if: steps.updater.outputs.changes_made == 'true'
         uses: actions/github-script@v6
         with:
           script: |
-            await github.rest.actions.createWorkflowDispatch({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              workflow_id: 'hugo.yaml',
-              ref: context.ref,
-            })
+            try {
+              await github.rest.actions.createWorkflowDispatch({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                workflow_id: 'hugo.yaml',
+                ref: context.ref,
+              });
+              console.log('Successfully triggered Hugo workflow');
+            } catch (error) {
+              console.error('Trigger failed:', error);
+              // Fallback: Create a repository_dispatch event
+              await github.rest.repos.createDispatchEvent({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                event_type: 'trigger-hugo-build',
+              });
+            }
