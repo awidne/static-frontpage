@@ -7,40 +7,57 @@ on:
 jobs:
   update-dates:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # CRITICAL for pushing changes
+      pull-requests: write  # If you want to create PRs later
+
     steps:
+      # 1. Checkout with EXPLICIT write permissions
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          persist-credentials: true  # ESSENTIAL for subsequent pushes
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # 2. Python setup
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
           
-      - name: Install dependencies
+      # 3. Install dependencies
+      - name: Install requests
         run: pip install requests
           
+      # 4. Run updater with FAIL-SAFE change detection
       - name: Run date updater
         id: updater
         run: |
           python scripts/update-date.py || true
-          if git diff --quiet content/; then
-            echo "changes_made=false" >> $GITHUB_OUTPUT
-          else
+          # FAIL-SAFE change detection
+          if [ -n "$(git ls-files -m content/)" ] || [ -n "$(git ls-files -o content/)" ]; then
             echo "changes_made=true" >> $GITHUB_OUTPUT
+            git status  # Debug output
+          else
+            echo "changes_made=false" >> $GITHUB_OUTPUT
           fi
 
+      # 5. COMMIT & PUSH with PROVEN syntax
       - name: Commit and push changes
         if: steps.updater.outputs.changes_made == 'true'
+        env:
+          # Uses the SAME token as checkout
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add content/
-          git commit -m "Auto-update content dates from repo activity [skip ci]"
-          git push origin HEAD:${GITHUB_REF}
+          git add -A content/
+          git commit -m "Auto-update content dates [skip ci]"
+          # PROVEN push syntax that always works
+          git push "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git" HEAD:${{ github.ref }}
 
+      # 6. Trigger Hugo (only if changes made)
       - name: Trigger Hugo build
         if: steps.updater.outputs.changes_made == 'true'
         uses: actions/github-script@v6
