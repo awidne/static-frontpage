@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Photo Collection"
 summary: Pretending to take nice photos.
 date: 2025-08-14
@@ -11,4 +11,6 @@ aliases: ["/photos"]
 redirect_url: "https://photos.jackxue.com"
 ---
 
-You will be redirected shortly. If not, please [click here](https://photos.jackxue.com).
+You will be redirected shortly. If not, please [click here](https://photos.jackxue.com). -->
+
+<!-- put this in links folder to enable link again -->

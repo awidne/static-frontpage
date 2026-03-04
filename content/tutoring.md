@@ -7,7 +7,7 @@ hideTitle: true
 
 ## Tutoring Services
 
-Available online on Zoom, Teams, or a plaform of your choice. Multi-hour bundles and group rates available upon request. Please contact for pricing and scheduling.*
+Available online on Zoom, Teams, or a platform of your choice. Multi-hour bundles and group rates available upon request. Please contact for pricing and scheduling.*
 
 {{< button text="Contact" url="/contact" >}}
 
