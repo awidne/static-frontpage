@@ -1,0 +1,9 @@
+{{- $align := .Get "align" | default "center" -}}
+{{- $validAlignments := slice "left" "center" "right" -}}
+{{- if not (in $validAlignments $align) -}}
+    {{- $align = "center" -}}
+{{- end -}}
+
+<div class="button-group" style="display: flex; flex-wrap: wrap; gap: 0.6em; justify-content: {{ $align }}; margin: -1.2em 0;">
+    {{ .Inner }}
+</div>
