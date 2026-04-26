@@ -1,7 +1,7 @@
 ---
 title: "Med Notes"
 summary: Repository of my condensed notes organized by topic.
-date: 2026-03-13
+date: 2026-04-25
 update_frequency: 30
 repo: "awidne/static-obsidian"
 auto_update_date: true
