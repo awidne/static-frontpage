@@ -76,5 +76,7 @@ def main():
     # Exit code indicates if changes were made
     sys.exit(1 if changed_files else 0)
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#    main()
+
+# disabled, not using anymore
