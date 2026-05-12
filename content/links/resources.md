@@ -1,7 +1,7 @@
 ---
 title: "Resources"
 summary: Links to useful resources.
-date: 2026-04-20
+date: 2026-05-10
 repo: "awidne/static-obsidian"
 weight: 2
 author: ["Jack Xue"]

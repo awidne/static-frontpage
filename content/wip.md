@@ -7,3 +7,7 @@ hideTitle: true
 
 ## Work in progress
 Please come back later...
+
+{{< hiddenimage title="▢" >}}
+![Cat](images/catwithhardhat.png)
+{{< /hiddenimage >}}
