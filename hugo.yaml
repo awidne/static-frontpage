@@ -88,10 +88,10 @@ menu:
     #   name: Tutoring
     #   url: /tutoring/
     #   weight: 20
-    # - identifier: contact
-    #   name: Contact
-    #   url: /contact/
-    #   weight: 30
+    - identifier: wip
+      name: More
+      url: /wip/
+      weight: 30
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
